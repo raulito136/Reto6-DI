@@ -1,14 +1,22 @@
 package org.example.reto4ad.entities;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 /**
- * Modelo para representar la solicitud de una reserva en la API.
- * Contiene la información necesaria para vincular a un cliente con un hotel
- * durante un periodo determinado.
+ * Modelo para representar una reserva en la base de datos MongoDB.
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Document(collection = "reservas") // Esto le dice a Mongo que cree una colección
 public class Reserva {
+
+    @Id
+    private String id;
 
     /** Identificador del hotel al que pertenece la reserva. */
     private String hotelId;

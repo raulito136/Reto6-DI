@@ -1,7 +1,9 @@
 package org.example.reto4ad.services;
 
 import org.example.reto4ad.entities.Hotel;
+import org.example.reto4ad.entities.Reserva;
 import org.example.reto4ad.repository.HotelRepository;
+import org.example.reto4ad.repository.ReservaRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,13 +18,16 @@ import java.util.Optional;
 public class HotelService {
 
     private final HotelRepository hotelRepository;
+    private final ReservaRepository reservaRepository;
 
     /**
      * Constructor para la inyección de dependencias del repositorio.
      * @param hotelRepository Repositorio de hoteles.
+     * @param reservaRepository Repositorio de reservas
      */
-    public HotelService(HotelRepository hotelRepository) {
+    public HotelService(HotelRepository hotelRepository, ReservaRepository reservaRepository) {
         this.hotelRepository = hotelRepository;
+        this.reservaRepository = reservaRepository;
     }
 
     /**
@@ -120,5 +125,8 @@ public class HotelService {
      */
     public Optional<Hotel> findHotelesByNombre(String nombre){
         return hotelRepository.findHotelsByNombre(nombre);
+    }
+    public void saveReserva(Reserva reserva) {
+        reservaRepository.save(reserva);
     }
 }

@@ -1,98 +1,51 @@
 package org.example.reto4ad.security;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import jakarta.servlet.http.HttpServletResponse;
-import org.example.reto4ad.dto.ErrorResponseDTO;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
-import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.security.web.SecurityFilterChain;
 
 /**
- * Configuración principal de seguridad de la aplicación.
- * Define las políticas de autorización, el manejo de sesiones, la seguridad de las rutas
- * y la integración de la autenticación básica y mediante formulario.
+ * Configuración principal de seguridad de la aplicación web.
+ * Define las políticas de autorización, el manejo de sesiones y
+ * la redirección a la vista de login.
  */
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
 
-    /**
-     * Configura la cadena de filtros de seguridad (SecurityFilterChain).
-     * - Desactiva CSRF para facilitar el uso de la API REST.
-     * - Define rutas públicas (Swagger, recursos estáticos, listado de hoteles).
-     * - Obliga a estar autenticado para cualquier otra petición.
-     * * @param http Objeto de configuración de seguridad HTTP.
-     * @return El filtro de seguridad configurado.
-     * @throws Exception Si ocurre un error durante la configuración.
-     */
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
-                .csrf(csrf -> csrf.disable())
+                // En aplicaciones MVC (con vistas HTML), es recomendable dejar CSRF activado.
+                // Thymeleaf se encargará de inyectar el token CSRF en los formularios automáticamente.
                 .authorizeHttpRequests(auth -> auth
-                        // Permite acceso sin login a la documentación de API
-                        .requestMatchers("/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html").permitAll()
-                        // Permite acceso a recursos estáticos del frontend
-                        .requestMatchers("/", "/index.html", "/css/**", "/javascript/**", "/favicon.ico", "/error").permitAll()
-                        // Permite ver hoteles y detalles sin estar logueado
-                        .requestMatchers(HttpMethod.GET, "/hoteles").permitAll()
-                        .requestMatchers(HttpMethod.GET, "/hoteles/{id}").permitAll()
-                        .requestMatchers(HttpMethod.GET, "/hoteles/buscar").permitAll()
-                        // Cualquier otra operación (POST, PUT, DELETE) requiere autenticación
+                        // Permitir recursos estáticos (CSS, JS, imágenes)
+                        .requestMatchers("/css/**", "/js/**", "/images/**", "/webjars/**").permitAll()
+
+                        // Rutas públicas: Ver hoteles y buscar (Solo lectura)
+                        .requestMatchers(HttpMethod.GET, "/hoteles", "/hoteles/{id}", "/hoteles/busqueda", "/hoteles/calificacion/**", "/hoteles/precio/**", "/hoteles/nombre/**").permitAll()
+
+                        // Cualquier otra acción (crear, editar, borrar, reservar) requiere estar logueado
                         .anyRequest().authenticated()
                 )
-                .httpBasic( (basic) -> {
-                    basic.authenticationEntryPoint(customAuthenticationEntryPoint());
-                })
+                // Configuración del login por formulario web clásico
                 .formLogin(form -> form
-                        .loginPage("/index.html")
-                        .loginProcessingUrl("/login")
-                        .successHandler((request, response, authentication) -> {
-                            response.setStatus(HttpServletResponse.SC_OK);
-                        })
-                        .failureHandler((request, response, exception) -> {
-                            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
-                        })
+                        .loginPage("/login") // Ruta donde mostraremos nuestro HTML de login
+                        .loginProcessingUrl("/login-post") // Ruta interna que procesa el formulario
+                        .defaultSuccessUrl("/hoteles", true) // Si el login es correcto, te lleva a los hoteles
+                        .failureUrl("/login?error=true") // Si falla, recarga el login con un mensaje de error
                         .permitAll()
                 )
-                .exceptionHandling(ex -> ex
-                        .authenticationEntryPoint((request, response, authException) -> {
-                            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Acceso Denegado");
-                        })
-                )
+                // Configuración del cierre de sesión
                 .logout(logout -> logout
                         .logoutUrl("/logout")
-                        .logoutSuccessHandler((request, response, authentication) -> {
-                            response.setStatus(HttpServletResponse.SC_OK);
-                        })
+                        .logoutSuccessUrl("/hoteles") // Al salir, te devuelve a la lista pública de hoteles
                         .permitAll()
                 );
 
         return http.build();
-    }
-
-    /**
-     * Define un punto de entrada personalizado para capturar errores de autenticación.
-     * Devuelve una respuesta en formato JSON utilizando el ErrorResponseDTO
-     * en lugar del error por defecto de Spring.
-     * * @return Una instancia de AuthenticationEntryPoint.
-     */
-    @Bean
-    public AuthenticationEntryPoint customAuthenticationEntryPoint() {
-        return (request, response, e) -> {
-            response.setContentType("application/json");
-            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
-            ErrorResponseDTO error = new ErrorResponseDTO(
-                    "Usuario no autorizado",
-                    "El usuario y contraseña no coinciden",
-                    401
-            );
-            ObjectMapper mapper = new ObjectMapper();
-            response.getWriter().write(mapper.writeValueAsString(error));
-        };
     }
 }
