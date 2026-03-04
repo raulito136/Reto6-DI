@@ -6,6 +6,7 @@
     <title>Gestión de Hotel - CESUR Viajes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
 <body class="bg-light">
 
@@ -69,6 +70,14 @@
                             </div>
                         </div>
 
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold">Seleccionar ubicación en el mapa</label>
+                            <div id="map" class="rounded border" style="height: 300px;"></div>
+                            <small class="text-muted">Haz clic en el mapa para seleccionar la ubicación exacta.</small>
+                            <input type="hidden" id="latitud" th:field="*{latitud}">
+                            <input type="hidden" id="longitud" th:field="*{longitud}">
+                        </div>
+
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4 border-top pt-4">
                             <a th:href="@{/hoteles}" class="btn btn-outline-secondary me-md-2">Cancelar</a>
                             <button type="submit" class="btn btn-success">
@@ -82,5 +91,48 @@
     </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script th:inline="javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        /*<![CDATA[*/
+        var lat = /*[[${hotel.latitud}]]*/ 40.416775;
+        var lng = /*[[${hotel.longitud}]]*/ -3.703790;
+
+        // Si no hay coordenadas previas, usar Madrid por defecto
+        if (lat === null) lat = 40.416775;
+        if (lng === null) lng = -3.703790;
+
+        var map = L.map('map').setView([lat, lng], 13);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        var marker = L.marker([lat, lng], {draggable: true}).addTo(map);
+
+        // Actualizar inputs ocultos al mover el marcador
+        function updateInputs(lat, lng) {
+            document.getElementById('latitud').value = lat;
+            document.getElementById('longitud').value = lng;
+        }
+
+        // Inicializar inputs si ya hay valores
+        updateInputs(lat, lng);
+
+        // Evento al arrastrar el marcador
+        marker.on('dragend', function(e) {
+            var position = marker.getLatLng();
+            updateInputs(position.lat, position.lng);
+        });
+
+        // Evento al hacer clic en el mapa
+        map.on('click', function(e) {
+            marker.setLatLng(e.latlng);
+            updateInputs(e.latlng.lat, e.latlng.lng);
+        });
+        /*]]>*/
+    });
+</script>
 </body>
 </html>

@@ -13,7 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "hoteles_espana")
+@Document(collection = "hoteles_espana2")
 public class Hotel {
 
     /** Identificador único generado por MongoDB. */
@@ -34,4 +34,7 @@ public class Hotel {
 
     /** Categoría del hotel expresada en estrellas (1-5). */
     private Integer estrellas;
+
+    private Double latitud;
+    private Double longitud;
 }
