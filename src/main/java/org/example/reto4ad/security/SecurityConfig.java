@@ -19,30 +19,32 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http
-                // En aplicaciones MVC (con vistas HTML), es recomendable dejar CSRF activado.
-                // Thymeleaf se encargará de inyectar el token CSRF en los formularios automáticamente.
                 .authorizeHttpRequests(auth -> auth
-                        // Permitir recursos estáticos (CSS, JS, imágenes)
                         .requestMatchers("/css/**", "/js/**", "/images/**", "/webjars/**").permitAll()
 
-                        // Rutas públicas: Ver hoteles y buscar (Solo lectura)
+                        // Rutas públicas: Ver hoteles y el asistente de IA
                         .requestMatchers(HttpMethod.GET, "/hoteles", "/hoteles/{id}", "/hoteles/busqueda", "/hoteles/calificacion/**", "/hoteles/precio/**", "/hoteles/nombre/**").permitAll()
 
-                        // Cualquier otra acción (crear, editar, borrar, reservar) requiere estar logueado
+                        // PERMITIR EL CHAT (Tanto GET como POST para evitar líos)
+                        .requestMatchers("/chat/**").permitAll() // <--- AÑADE ESTO
+
                         .anyRequest().authenticated()
                 )
-                // Configuración del login por formulario web clásico
+                // OPCIONAL: Si vas a usar POST en el chat desde JS,
+                // necesitas ignorar el CSRF solo para esa ruta, o el chat fallará.
+                .csrf(csrf -> csrf
+                        .ignoringRequestMatchers("/chat/**") // <--- RECOMENDADO para que el chat funcione sin tokens
+                )
                 .formLogin(form -> form
-                        .loginPage("/login") // Ruta donde mostraremos nuestro HTML de login
-                        .loginProcessingUrl("/login-post") // Ruta interna que procesa el formulario
-                        .defaultSuccessUrl("/hoteles", true) // Si el login es correcto, te lleva a los hoteles
-                        .failureUrl("/login?error=true") // Si falla, recarga el login con un mensaje de error
+                        .loginPage("/login")
+                        .loginProcessingUrl("/login-post")
+                        .defaultSuccessUrl("/hoteles", true)
+                        .failureUrl("/login?error=true")
                         .permitAll()
                 )
-                // Configuración del cierre de sesión
                 .logout(logout -> logout
                         .logoutUrl("/logout")
-                        .logoutSuccessUrl("/hoteles") // Al salir, te devuelve a la lista pública de hoteles
+                        .logoutSuccessUrl("/hoteles")
                         .permitAll()
                 );
 

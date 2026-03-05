@@ -4,6 +4,8 @@ import org.example.reto4ad.entities.Hotel;
 import org.example.reto4ad.entities.Reserva;
 import org.example.reto4ad.repository.HotelRepository;
 import org.example.reto4ad.repository.ReservaRepository;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -34,6 +36,7 @@ public class HotelService {
      * Recupera todos los hoteles almacenados.
      * @return Lista de todos los objetos Hotel.
      */
+    @Cacheable("hoteles")
     public List<Hotel> findAll() {
         return hotelRepository.findAll();
     }
@@ -52,6 +55,7 @@ public class HotelService {
      * @param hotel Entidad hotel a persistir.
      * @return El objeto {@link Hotel} guardado.
      */
+    @CacheEvict(value = "hoteles", allEntries = true)
     public Hotel save(Hotel hotel) {
         return hotelRepository.save(hotel);
     }
@@ -60,6 +64,7 @@ public class HotelService {
      * Elimina un hotel de la base de datos mediante su ID.
      * @param id Identificador del hotel a borrar.
      */
+    @CacheEvict(value = "hoteles", allEntries = true)
     public void deleteById(String id) {
         hotelRepository.deleteById(id);
     }

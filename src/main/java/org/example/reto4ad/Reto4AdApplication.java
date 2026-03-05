@@ -2,6 +2,7 @@ package org.example.reto4ad;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 
 /**
  * Clase principal de configuración y arranque de la aplicación Spring Boot.
@@ -9,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * el escaneo de componentes y la configuración de propiedades.
  */
 @SpringBootApplication
+@EnableCaching
 public class Reto4AdApplication {
 
 	/**
