@@ -1,6 +1,31 @@
 version: '3.8'
 
 services:
+  # Motor de Ollama (Servidor LLM)
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: always
+
+  # Interfaz gráfica para Ollama
+  webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: webui-1
+    ports:
+      - "3000:8080"
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+    volumes:
+      - webui_data:/app/backend/data
+    depends_on:
+      - ollama
+    restart: always
+
+  # Tu aplicación Spring Boot
   app:
     build: .
     container_name: reto4ad_app
@@ -9,4 +34,12 @@ services:
     environment:
       - SPRING_DATA_MONGODB_URI=mongodb+srv://root:root@cluster0.jj7aikx.mongodb.net/hoteles?retryWrites=true&w=majority
       - SPRING_DATA_MONGODB_DATABASE=hoteles
+      # Configuración para que Spring hable con el contenedor de Ollama
+      - SPRING_AI_OLLAMA_BASE_URL=http://ollama:11434
+    depends_on:
+      - ollama
     restart: always
+
+volumes:
+  ollama_data:
+  webui_data:
