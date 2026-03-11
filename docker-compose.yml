@@ -11,19 +11,6 @@ services:
       - ollama_data:/root/.ollama
     restart: always
 
-  # Interfaz gráfica para Ollama
-  webui:
-    image: ghcr.io/open-webui/open-webui:main
-    container_name: webui-1
-    ports:
-      - "3000:8080"
-    environment:
-      - OLLAMA_BASE_URL=http://ollama:11434
-    volumes:
-      - webui_data:/app/backend/data
-    depends_on:
-      - ollama
-    restart: always
 
   # Tu aplicación Spring Boot
   app:
