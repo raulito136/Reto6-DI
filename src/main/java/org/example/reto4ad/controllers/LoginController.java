@@ -8,6 +8,6 @@ public class LoginController {
 
     @GetMapping("/login")
     public String mostrarLogin() {
-        return "login"; // Devolverá la plantilla templates/login.html
+        return "login";
     }
 }

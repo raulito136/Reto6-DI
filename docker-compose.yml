@@ -28,7 +28,7 @@ services:
   # Tu aplicación Spring Boot
   app:
     build: .
-    container_name: reto4ad_app
+    container_name: reto6di
     ports:
       - "8080:8080"
     environment:

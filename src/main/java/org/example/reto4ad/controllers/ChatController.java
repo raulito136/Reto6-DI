@@ -20,6 +20,10 @@ public class ChatController {
     @PostMapping("/preguntar")
     @ResponseBody
     public String preguntar(@RequestParam String mensaje) {
-        return llmService.generarRespuesta(mensaje);
+        try {
+            return llmService.generarRespuesta(mensaje);
+        } catch (Exception e) {
+            return "Lo siento, tengo problemas de conexión internos: " + e.getMessage();
+        }
     }
 }
