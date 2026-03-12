@@ -12,6 +12,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+/**
+ * Clase servicio para la IA con Llama3
+ */
 public class LLMService implements LLMRepository {
     private final OllamaChatModel chatModel;
     private final HotelService hotelService;
@@ -21,6 +24,11 @@ public class LLMService implements LLMRepository {
         this.hotelService = hotelService;
     }
 
+    /**
+     * La IA genera una respuesta respecto al mensaje del usuario
+     * @param seed
+     * @return
+     */
     @Override
     public String generarRespuesta(String seed) {
         // Obtenemos la lista (que ya vendrá de caché gracias al paso anterior)
