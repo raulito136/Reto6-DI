@@ -1,112 +1,95 @@
-# 🏨 API REST de Gestión Hotelera - HelloMongoDBSpringBoot2026
+# Reto 6 - Desarrollo de Interfaces (DI) - Aplicación Web de Gestión Hotelera
 
-Este proyecto es una API REST profesional desarrollada con **Spring Boot 3.4.2** para la gestión integral de un catálogo de hoteles y sus reservas, utilizando **MongoDB** como base de datos NoSQL.
+Este proyecto es una **Aplicación Web** desarrollada con **Spring Boot** que integra **MongoDB** para la persistencia de datos y **Spring AI (Ollama)** para proporcionar capacidades de Inteligencia Artificial (LLM). Está diseñada para gestionar información sobre hoteles, permitir interacciones mediante un chat inteligente y ofrecer una interfaz de usuario completa utilizando Thymeleaf.
 
----
+## 🚀 Tecnologías Utilizadas
 
-## 🛠️ Stack Tecnológico
+*   **Java 17**
+*   **Spring Boot** (Web, Security, Data MongoDB)
+*   **Spring AI** (Integración con Ollama)
+*   **Thymeleaf** (Motor de plantillas para la interfaz web, con integración de seguridad)
+*   **SpringDoc OpenAPI** (Documentación Swagger)
+*   **Lombok** (Reducción de código repetitivo)
+*   **Docker & Docker Compose** (Despliegue de contenedores)
 
-* **Java**: Versión 17.
-* **Framework**: Spring Boot 3.4.2.
-* **Base de Datos**: MongoDB (vía Spring Data MongoDB).
-* **Seguridad**: Spring Security con soporte para Basic Auth y Form Login.
-* **Documentación**: OpenAPI 3 / Swagger UI (springdoc-openapi v2.8.4).
-* **Productividad**: Lombok para la autogeneración de código.
+## 🌐 Características de la Web
 
----
+La aplicación cuenta con varias vistas desarrolladas en HTML y Thymeleaf:
+*   **Login**: Autenticación de usuarios.
+*   **Listado de Hoteles**: Vista general de los hoteles disponibles.
+*   **Detalle de Hotel**: Información detallada de un hotel específico.
+*   **Formulario de Hotel**: Creación y edición de hoteles.
+*   **Chat Inteligente**: Interfaz para interactuar con el asistente de IA.
 
-## 🔐 Seguridad y Autenticación
+## 📋 Requisitos Previos
 
-El sistema implementa un modelo de seguridad robusto configurado en `SecurityConfig.java`:
+Para ejecutar este proyecto localmente o construirlo, necesitarás:
 
-* **Acceso Público (Sin Autenticación)**:
-    * Consultas de lectura: `GET /hoteles`, `GET /hoteles/{id}`, `GET /hoteles/buscar`.
-    * Interfaz de Swagger: `/swagger-ui/**`, `/v3/api-docs/**`.
-    * Recursos estáticos: `index.html`, `/css/**`, `/javascript/**`.
-* **Acceso Protegido (Requiere Rol ADMIN)**:
-    * Operaciones de escritura: `POST`, `PUT`, `DELETE`.
-    * Gestión de reservas: `POST /hoteles/reservas`.
-* **Gestión de Usuarios**: Los usuarios se cargan desde MongoDB a través del servicio `AppUserDetailsService`.
+*   JDK 17
+*   Maven
+*   Docker Desktop (para ejecutar Ollama y la aplicación en contenedores)
 
----
+## 🛠️ Configuración y Ejecución
 
-## 🚀 Endpoints de la API
+### 🐳 Ejecución con Docker Compose (Recomendado)
 
-### 1. Gestión de Hoteles (`/hoteles`)
+El proyecto incluye un archivo `docker-compose.yml` que orquesta la aplicación y el servicio de Ollama.
 
-| Método | Endpoint | Descripción |
-| :--- | :--- | :--- |
-| **GET** | `/hoteles` | Lista todos los hoteles registrados. |
-| **GET** | `/hoteles/{id}` | Obtiene un hotel por su ID de MongoDB. |
-| **POST** | `/hoteles` | Crea un nuevo hotel (Protegido). |
-| **PUT** | `/hoteles/{id}` | Actualiza un hotel existente (Protegido). |
-| **DELETE** | `/hoteles/{id}` | Elimina un hotel del sistema (Protegido). |
-**Ejemplo de crear un hotel (POST):**
+1.  Asegúrate de tener Docker corriendo.
+2.  En la raíz del proyecto, ejecuta:
+
+    ```bash
+    docker-compose up --build
+    ```
+
+Esto levantará los siguientes servicios:
+*   **ollama**: Servicio de IA (LLM) en el puerto `11434`.
+*   **app**: La aplicación web Spring Boot ("reto6di") accesible en `http://localhost:8080`.
+
+> **Nota:** La aplicación está configurada para conectarse a un cluster de MongoDB Atlas definido en las variables de entorno del `docker-compose.yml`.
+
+### ⚙️ Variables de Entorno
+
+Las principales variables configuradas en `docker-compose.yml` son:
+
+*   `SPRING_DATA_MONGODB_URI`: Cadena de conexión a MongoDB Atlas.
+*   `SPRING_DATA_MONGODB_DATABASE`: Nombre de la base de datos (`hoteles`).
+*   `SPRING_AI_OLLAMA_BASE_URL`: URL de conexión con el servicio Ollama (`http://ollama:11434`).
+
+## 📚 Documentación de la API (Swagger)
+
+Una vez iniciada la aplicación, puedes acceder a la documentación interactiva de la API en:
+
+*   http://localhost:8080/swagger-ui/index.html
+
+## 🗂️ Estructura del Proyecto
+
+### Entidades
+*   **Hotel**: Mapeada a la colección `hoteles_espana2`. Contiene información como nombre, ubicación, precio, estrellas, latitud y longitud.
+
+### Controladores Principales
+*   **ChatController**: Maneja las interacciones con el LLM (`/chat/preguntar`).
+*   **HotelController**: Gestiona las operaciones CRUD y vistas de los hoteles.
+*   **LoginController**: Administra el acceso a la aplicación.
+
+### Vistas (Templates)
+*   `login.html`
+*   `lista-hoteles.html`
+*   `detalle-hotel.html`
+*   `formulario-hotel.html`
+*   `error.html`
+
+### Archivos de Datos
+El proyecto incluye archivos JSON en la raíz que pueden servir para poblar la base de datos o como referencia:
+*   `BDHoteles.json`
+*   `BDUsuarios.json`
+
+## 📦 Compilación Manual
+
+Si deseas compilar el proyecto manualmente sin Docker:
+
 ```bash
-curl -X 'POST' \
-  'http://localhost:8080/hoteles' \
-  -H 'accept: */*' \
-  -H 'Authorization: Basic dXN1YXJpbzoxMjM0' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "nombre": "Cesur Hotel",
-  "calificacion": 8,
-  "ubicacion": "El palo",
-  "precioPorNoche": 500,
-  "estrellas": 5
-}'
- ```
-### 2. Filtros y Búsquedas Avanzadas
+./mvnw clean package
+```
 
-| Método | Endpoint | Descripción |
-| :--- | :--- | :--- |
-| **GET** | `/hoteles/busqueda?ubicacion={txt}` | Filtra por texto en la ubicación. |
-| **GET** | `/hoteles/nombre/{nombre}` | Busca un hotel por su nombre exacto. |
-| **GET** | `/hoteles/calificacion/{val}` | Filtra por calificación exacta. |
-| **GET** | `/hoteles/calificacion/superior/{val}` | Filtra hoteles con calificación > valor. |
-| **GET** | `/hoteles/precio/superior/{precio}` | Busca hoteles con precio > valor. |
-| **GET** | `/hoteles/precio/inferior/{precio}` | Busca hoteles con precio < valor. |
-
-**Ejemplo de busqueda de nombre de hotel (GET):**
-```json
-{
-  "id": "698cca4431d9501c657db778",
-  "nombre": "Cesur Hotel",
-  "calificacion": 8,
-  "ubicacion": "El palo",
-  "precioPorNoche": 500,
-  "estrellas": 5
-}
- ```
-### 3. Reservas (`/hoteles/reservas`)
-
-| Método | Endpoint | Descripción |
-| :--- | :--- | :--- |
-| **POST** | `/hoteles/reservas` | Crea una reserva validando hotel y noches. |
-
-**Ejemplo de reserva (POST):**
-```json
-{
-  "mensaje": "Reserva confirmada para el hotel: Eurostars Hotel Real"
-  }
- ```
----
-
-
-
-## ⚠️ Manejo de Errores Centralizado
-
-La API utiliza un `RestControllerAdvice` para garantizar que todos los errores devuelvan un formato JSON consistente (`ErrorResponseDTO`):
-
-* **404 Not Found**: Lanzado cuando un hotel no existe (`HotelNotFoundException`).
-* **400 Bad Request**: Errores de parámetros faltantes o solicitudes de reserva inválidas.
-* **401 Unauthorized**: Errores de autenticación personalizados con mensaje JSON.
-* **503 Service Unavailable**: Problemas de conexión con MongoDB.
-
-**Ejemplo de error (404):**
-```json
-{
-  "mensaje": "Hotel no encontrado",
-  "detalles": "El hotel con ID 123 no ha sido encontrado en nuestro sistema.",
-  "codigo": 404
-}
+Luego puedes ejecutar el JAR generado en la carpeta `target`.
