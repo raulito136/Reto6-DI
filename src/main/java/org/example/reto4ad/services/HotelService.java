@@ -57,7 +57,9 @@ public class HotelService {
      */
     @CacheEvict(value = "hoteles", allEntries = true)
     public Hotel save(Hotel hotel) {
-        hotel.setId(null);
+        if (hotel.getId().isEmpty()) {
+            hotel.setId(null);
+        }
         return hotelRepository.save(hotel);
     }
 
