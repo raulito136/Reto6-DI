@@ -1,1381 +1,2002 @@
 [
   {
-    "nombre": "Meliá Madrid Princesa",
-    "calificacion": 8.9,
-    "ubicacion": "Princesa 27, Madrid",
-    "precioPorNoche": 150,
-    "estrellas": 5
-  },
-  {
-    "nombre": "NH Collection Eurobuilding",
-    "calificacion": 9.1,
-    "ubicacion": "Padre Damián 23, Madrid",
-    "precioPorNoche": 200,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Barceló Torre de Madrid",
-    "calificacion": 9.4,
-    "ubicacion": "Plaza de España 18, Madrid",
-    "precioPorNoche": 280,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Santo Domingo",
-    "calificacion": 8.8,
-    "ubicacion": "San Bernardo 1, Madrid",
-    "precioPorNoche": 120,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Ilunion Alcalá Norte",
-    "calificacion": 8.5,
-    "ubicacion": "San Romualdo 26, Madrid",
-    "precioPorNoche": 90,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Ibis Madrid Centro",
-    "calificacion": 8.2,
-    "ubicacion": "Manuela Malasaña 6, Madrid",
-    "precioPorNoche": 75,
-    "estrellas": 2
-  },
-  {
-    "nombre": "Barceló Raval",
-    "calificacion": 8.9,
-    "ubicacion": "Rambla del Raval 17, Barcelona",
-    "precioPorNoche": 140,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Gran Hotel Miramar",
-    "calificacion": 9.7,
-    "ubicacion": "Paseo de Reding 22, Málaga",
-    "precioPorNoche": 320,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Molina Lario",
-    "calificacion": 9.2,
-    "ubicacion": "Molina Lario 20, Málaga",
-    "precioPorNoche": 190,
-    "estrellas": 4
-  },
-  {
-    "nombre": "NH Sevilla Plaza de Armas",
-    "calificacion": 8.9,
-    "ubicacion": "Marqués de Paradas, Sevilla",
-    "precioPorNoche": 130,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Exe Sevilla Macarena",
-    "calificacion": 8.6,
-    "ubicacion": "San Juan de Ribera 2, Sevilla",
-    "precioPorNoche": 100,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Las Arenas Balneario Resort",
-    "calificacion": 9.6,
-    "ubicacion": "Eugènia Viñes 22, Valencia",
-    "precioPorNoche": 300,
-    "estrellas": 5
-  },
-  {
-    "nombre": "The Westin Valencia",
-    "calificacion": 9.5,
-    "ubicacion": "Amadeo de Saboya 16, Valencia",
-    "precioPorNoche": 280,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Sercotel Sorolla Palace",
-    "calificacion": 8.7,
-    "ubicacion": "Avinguda de les Corts Valencianes 58, Valencia",
-    "precioPorNoche": 110,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Barceló Costa Vasca",
-    "calificacion": 8.9,
-    "ubicacion": "Pio Baroja 15, San Sebastián",
-    "precioPorNoche": 150,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Hesperia Bilbao",
-    "calificacion": 8.8,
-    "ubicacion": "Campo Volantín 28, Bilbao",
-    "precioPorNoche": 120,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Ibis Bilbao Centro",
-    "calificacion": 8.3,
-    "ubicacion": "General Concha 28, Bilbao",
-    "precioPorNoche": 75,
-    "estrellas": 2
-  },
-  {
-    "nombre": "Hotel Saray",
-    "calificacion": 8.8,
-    "ubicacion": "Paseo de Violón, Granada",
-    "precioPorNoche": 100,
-    "estrellas": 4
-  },
-  {
-    "nombre": "The Level at Meliá Villaitana",
-    "calificacion": 9.5,
-    "ubicacion": "Avenida Alcalde Eduardo Zaplana, Benidorm",
-    "precioPorNoche": 320,
-    "estrellas": 5
-  },
-  {
-    "nombre": "AC Hotel Alicante",
-    "calificacion": 8.8,
-    "ubicacion": "Avenida de Elche 3, Alicante",
-    "precioPorNoche": 100,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Gran Hotel Mencey",
-    "calificacion": 9.5,
-    "ubicacion": "Dr. Jose Naveiras 38, Tenerife",
-    "precioPorNoche": 220,
-    "estrellas": 5
-  },
-  {
-    "nombre": "The Westin Palace",
-    "calificacion": 9.6,
-    "ubicacion": "Plaza de las Cortes 7, Madrid",
-    "precioPorNoche": 450,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Riu Plaza España",
-    "calificacion": 9.3,
-    "ubicacion": "Gran Vía 84, Madrid",
-    "precioPorNoche": 220,
-    "estrellas": 4
-  },
-  {
-    "nombre": "H10 Cubik",
-    "calificacion": 9.2,
-    "ubicacion": "Via Laietana 69, Barcelona",
-    "precioPorNoche": 180,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Travelodge Poblenou",
-    "calificacion": 8,
-    "ubicacion": "Llull 170, Barcelona",
-    "precioPorNoche": 65,
-    "estrellas": 1
-  },
-  {
-    "nombre": "Parador de Málaga Gibralfaro",
-    "calificacion": 9.1,
-    "ubicacion": "Castillo de Gibralfaro, Málaga",
-    "precioPorNoche": 180,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Puente Romano Beach Resort",
-    "calificacion": 9.7,
-    "ubicacion": "Bulevar Príncipe Alfonso, Marbella",
-    "precioPorNoche": 700,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Alfonso XIII",
-    "calificacion": 9.9,
-    "ubicacion": "San Fernando 2, Sevilla",
-    "precioPorNoche": 450,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Ayre Hotel Sevilla",
-    "calificacion": 8.8,
-    "ubicacion": "Kansas City 7, Sevilla",
-    "precioPorNoche": 110,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Primus Valencia",
-    "calificacion": 8.9,
-    "ubicacion": "Menorca 22, Valencia",
-    "precioPorNoche": 120,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Meliá Valencia",
-    "calificacion": 8.8,
-    "ubicacion": "Avinguda de les Corts Valencianes 52, Valencia",
-    "precioPorNoche": 130,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Hotel de Londres y de Inglaterra",
-    "calificacion": 9.4,
-    "ubicacion": "Zubieta 2, San Sebastián",
-    "precioPorNoche": 220,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Hotel Ercilla",
-    "calificacion": 9,
-    "ubicacion": "Ercilla 37, Bilbao",
-    "precioPorNoche": 140,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Occidental Bilbao",
-    "calificacion": 8.6,
-    "ubicacion": "Avenida Zumalacárregui 40, Bilbao",
-    "precioPorNoche": 100,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Parador de Granada",
-    "calificacion": 9.5,
-    "ubicacion": "Real de la Alhambra, Granada",
-    "precioPorNoche": 350,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Meliá Granada",
-    "calificacion": 9.1,
-    "ubicacion": "Ganivet 7, Granada",
-    "precioPorNoche": 150,
-    "estrellas": 4
-  },
-  {
-    "nombre": "NH Collection Victoria",
-    "calificacion": 9.3,
-    "ubicacion": "Puerta Real 3, Granada",
-    "precioPorNoche": 170,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Abades Nevada Palace",
-    "calificacion": 8.6,
-    "ubicacion": "La Sultana 3, Granada",
-    "precioPorNoche": 85,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Hotel Los Jerónimos",
-    "calificacion": 8.1,
-    "ubicacion": "Gran Capitán 1, Granada",
-    "precioPorNoche": 65,
-    "estrellas": 2
-  },
-  {
-    "nombre": "Eurostars Lucentum",
-    "calificacion": 8.9,
-    "ubicacion": "Alfonso X El Sabio 11, Alicante",
-    "precioPorNoche": 110,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Hotel Bali",
-    "calificacion": 8.5,
-    "ubicacion": "Luis Prendes 4, Benidorm",
-    "precioPorNoche": 130,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Castillo Hotel Son Vida",
-    "calificacion": 9.9,
-    "ubicacion": "Carrer Raixa 2, Mallorca",
-    "precioPorNoche": 550,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hard Rock Hotel Tenerife",
-    "calificacion": 9.4,
-    "ubicacion": "Avenida Adeje 300, Tenerife",
-    "precioPorNoche": 250,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Iberostar Selection Anthelia",
-    "calificacion": 9.6,
-    "ubicacion": "Londres 15, Tenerife",
-    "precioPorNoche": 350,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Real",
-    "calificacion": 9.6,
-    "ubicacion": "Pérez Galdós 28, Santander",
-    "precioPorNoche": 230,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Camiral",
-    "calificacion": 9.4,
-    "ubicacion": "Ctra. N-II km 701, Girona",
-    "precioPorNoche": 270,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Nose",
-    "calificacion": 0,
-    "ubicacion": "Ctra. d'Enderrocat, Mallorca",
-    "precioPorNoche": 850,
-    "estrellas": 0
-  },
-  {
-    "nombre": "Hotel Emperador",
-    "calificacion": 9,
-    "ubicacion": "Gran Vía 53, Madrid",
-    "precioPorNoche": 180,
-    "estrellas": 4
-  },
-  {
-    "nombre": "W Barcelona",
-    "calificacion": 9.5,
-    "ubicacion": "Plaça de la Rosa dels Vents 1, Barcelona",
-    "precioPorNoche": 550,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel 1898",
-    "calificacion": 9.3,
-    "ubicacion": "La Rambla 109, Barcelona",
-    "precioPorNoche": 210,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Eurostars Grand Marina",
-    "calificacion": 9,
-    "ubicacion": "Moll de Barcelona, Barcelona",
-    "precioPorNoche": 230,
-    "estrellas": 5
-  },
-  {
-    "nombre": "AC Hotel Málaga Palacio",
-    "calificacion": 9.3,
-    "ubicacion": "Cortina del Muelle 1, Málaga",
-    "precioPorNoche": 210,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Hotel Pez Espada",
-    "calificacion": 8.9,
-    "ubicacion": "Av. Salvador Allende 11, Torremolinos",
-    "precioPorNoche": 140,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Holiday World Riot",
-    "calificacion": 8.7,
-    "ubicacion": "Ctra. Nacional 340, Benalmádena",
-    "precioPorNoche": 120,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Silken Al-Andalus Palace",
-    "calificacion": 8.7,
-    "ubicacion": "Paraná, Sevilla",
-    "precioPorNoche": 95,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Barceló Valencia",
-    "calificacion": 9,
-    "ubicacion": "Avenida de Francia 11, Valencia",
-    "precioPorNoche": 140,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Gran Hotel Domine",
-    "calificacion": 9.7,
-    "ubicacion": "Alameda de Mazarredo 61, Bilbao",
-    "precioPorNoche": 260,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Carlton",
-    "calificacion": 9.5,
-    "ubicacion": "Plaza Federico Moyúa 2, Bilbao",
-    "precioPorNoche": 190,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Barceló Carmen Granada",
-    "calificacion": 9,
-    "ubicacion": "Acera del Darro 62, Granada",
-    "precioPorNoche": 130,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Sercotel Gran Hotel Luna",
-    "calificacion": 8.9,
-    "ubicacion": "Plaza del Guitarrista Manuel Cano, Granada",
-    "precioPorNoche": 110,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Barceló Santiago",
-    "calificacion": 9.1,
-    "ubicacion": "La Hondura 8, Tenerife",
-    "precioPorNoche": 160,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Hotel Saratoga",
-    "calificacion": 8.9,
-    "ubicacion": "Paseo Mallorca 6, Mallorca",
-    "precioPorNoche": 140,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Sol Katmandu Park & Resort",
-    "calificacion": 8.8,
-    "ubicacion": "Galeón 2, Mallorca",
-    "precioPorNoche": 130,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Parador de Toledo",
-    "calificacion": 9.5,
-    "ubicacion": "Cerro del Emperador, Toledo",
-    "precioPorNoche": 190,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Hacienda Zorita",
-    "calificacion": 9.3,
-    "ubicacion": "Ctra. Ledesma, Salamanca",
-    "precioPorNoche": 180,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Abadía Retuerta LeDomaine",
-    "calificacion": 9.9,
-    "ubicacion": "Sardón de Duero, Valladolid",
-    "precioPorNoche": 550,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Arts Barcelona",
-    "calificacion": 9.6,
-    "ubicacion": "Marina 19-21, Barcelona",
-    "precioPorNoche": 480,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Majestic Hotel & Spa",
-    "calificacion": 9.4,
-    "ubicacion": "Passeig de Gràcia 68, Barcelona",
-    "precioPorNoche": 350,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Novotel Barcelona City",
-    "calificacion": 8.7,
-    "ubicacion": "Avinguda Diagonal 201, Barcelona",
-    "precioPorNoche": 130,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Ayre Hotel Gran Vía",
-    "calificacion": 8.6,
-    "ubicacion": "Gran Via 322, Barcelona",
-    "precioPorNoche": 110,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Barceló Málaga",
-    "calificacion": 9.4,
-    "ubicacion": "Estación María Zambrano, Málaga",
-    "precioPorNoche": 160,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Vincci Selección Posada del Patio",
-    "calificacion": 9.5,
-    "ubicacion": "Pasillo de Santa Isabel 7, Málaga",
-    "precioPorNoche": 250,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Marbella Club Hotel",
-    "calificacion": 9.8,
-    "ubicacion": "Bulevar Príncipe Alfonso, Marbella",
-    "precioPorNoche": 850,
-    "estrellas": 5
-  },
-  {
-    "nombre": "EME Catedral Hotel",
-    "calificacion": 9.4,
-    "ubicacion": "Alemanes 27, Sevilla",
-    "precioPorNoche": 320,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Colón Gran Meliá",
-    "calificacion": 9.6,
-    "ubicacion": "Canalejas 1, Sevilla",
-    "precioPorNoche": 290,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Fernando III",
-    "calificacion": 9.1,
-    "ubicacion": "San José 21, Sevilla",
-    "precioPorNoche": 150,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Las Casas de la Judería",
-    "calificacion": 9.3,
-    "ubicacion": "Santa María la Blanca 5, Sevilla",
-    "precioPorNoche": 180,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Pension Catedral",
-    "calificacion": 8.2,
-    "ubicacion": "Tintes 4, Sevilla",
-    "precioPorNoche": 60,
-    "estrellas": 2
-  },
-  {
-    "nombre": "Caro Hotel",
-    "calificacion": 9.7,
-    "ubicacion": "Almirante 14, Valencia",
-    "precioPorNoche": 350,
-    "estrellas": 5
-  },
-  {
-    "nombre": "SH Valencia Palace",
-    "calificacion": 9.1,
-    "ubicacion": "Passeig de l'Albereda 32, Valencia",
-    "precioPorNoche": 160,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Turia",
-    "calificacion": 8.5,
-    "ubicacion": "Professor Beltrán Báguena 2, Valencia",
-    "precioPorNoche": 90,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Casual de las Artes Valencia",
-    "calificacion": 8.4,
-    "ubicacion": "Institut Obrer de València 14, Valencia",
-    "precioPorNoche": 70,
-    "estrellas": 3
-  },
-  {
-    "nombre": "Hotel Maria Cristina",
-    "calificacion": 9.9,
-    "ubicacion": "República Argentina 4, San Sebastián",
-    "precioPorNoche": 550,
-    "estrellas": 5
-  },
-  {
-    "nombre": "NH Collection Villa de Bilbao",
-    "calificacion": 9.1,
-    "ubicacion": "Gran Vía 87, Bilbao",
-    "precioPorNoche": 170,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Hotel Alhambra Palace",
-    "calificacion": 9.6,
-    "ubicacion": "Peña Partida 2, Granada",
-    "precioPorNoche": 240,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Eurostars Gran Vía",
-    "calificacion": 9.2,
-    "ubicacion": "Gran Vía de Colón 20, Granada",
-    "precioPorNoche": 160,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Asia Gardens Hotel & Thai Spa",
-    "calificacion": 9.8,
-    "ubicacion": "Rotonda del Fuego, Benidorm",
-    "precioPorNoche": 400,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Hospes Amérigo",
-    "calificacion": 9.6,
-    "ubicacion": "Rafael Altamira 7, Alicante",
-    "precioPorNoche": 250,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Meliá Alicante",
-    "calificacion": 9.1,
-    "ubicacion": "Plaza del Puerto 3, Alicante",
-    "precioPorNoche": 180,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Hotel Don Pancho",
-    "calificacion": 9.3,
-    "ubicacion": "Avenida del Mediterráneo 39, Benidorm",
-    "precioPorNoche": 190,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Hotel Maya Alicante",
-    "calificacion": 8.4,
-    "ubicacion": "Canónigo Manuel Penalva 2, Alicante",
-    "precioPorNoche": 80,
-    "estrellas": 3
-  },
-  {
-    "nombre": "Ibis Alicante",
-    "calificacion": 8.1,
-    "ubicacion": "Ctra. de Elche Km 6, Alicante",
-    "precioPorNoche": 60,
-    "estrellas": 1
-  },
-  {
-    "nombre": "St. Regis Mardavall",
-    "calificacion": 9.8,
-    "ubicacion": "Carretera Palma-Andratx 19, Mallorca",
-    "precioPorNoche": 800,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Bahía del Duque",
-    "calificacion": 9.7,
-    "ubicacion": "Avenida de Bruselas, Tenerife",
-    "precioPorNoche": 450,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Meliá Palma Marina",
-    "calificacion": 9,
-    "ubicacion": "Paseo Marítimo 29, Mallorca",
-    "precioPorNoche": 180,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Parador de Santiago de Compostela",
-    "calificacion": 9.8,
-    "ubicacion": "Plaza del Obradoiro 1, Santiago",
-    "precioPorNoche": 280,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Parador de Ronda",
-    "calificacion": 9.7,
-    "ubicacion": "Plaza de España, Ronda",
-    "precioPorNoche": 210,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Marqués de Riscal",
-    "calificacion": 9.9,
-    "ubicacion": "Torrea 1, Elciego",
-    "precioPorNoche": 480,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Gran Hotel La Toja",
-    "calificacion": 9.5,
-    "ubicacion": "Isla de la Toja, O Grove",
-    "precioPorNoche": 250,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Raul Hotels",
-    "calificacion": 9.9,
-    "ubicacion": "Malaga",
-    "precioPorNoche": 100,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Gran Hotel Miramar",
-    "calificacion": 9.4,
-    "ubicacion": "Paseo de Reding 22, Málaga",
-    "precioPorNoche": 320,
-    "estrellas": 5
-  },
-  {
-    "nombre": "AC Hotel Málaga Palacio",
-    "calificacion": 8.7,
-    "ubicacion": "Cortina del Muelle 1, Málaga",
-    "precioPorNoche": 190,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Hotel Molina Lario",
-    "calificacion": 9,
-    "ubicacion": "Molina Lario 20, Málaga",
-    "precioPorNoche": 210,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Vincci Selección Posada del Patio",
-    "calificacion": 9.1,
-    "ubicacion": "Pasillo de Santa Isabel 7, Málaga",
-    "precioPorNoche": 240,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Only YOU Hotel Málaga",
-    "calificacion": 9.3,
-    "ubicacion": "Alameda Principal 1, Málaga",
-    "precioPorNoche": 280,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Soho Boutique Castillo de Santa Catalina",
-    "calificacion": 9.5,
-    "ubicacion": "Calle Isaac Albéniz 33, Málaga",
-    "precioPorNoche": 350,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Barceló Málaga",
-    "calificacion": 8.8,
-    "ubicacion": "Calle Héroe de Sostoa 2, Málaga",
-    "precioPorNoche": 160,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Marbella Club Hotel",
-    "calificacion": 9.6,
-    "ubicacion": "Av. Bulevar Príncipe Alfonso de Hohenlohe, Marbella",
-    "precioPorNoche": 850,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Puente Romano Beach Resort",
-    "calificacion": 9.5,
-    "ubicacion": "Bulevar Príncipe Alfonso de Hohenlohe, Marbella",
-    "precioPorNoche": 700,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Anantara Villa Padierna Palace",
-    "calificacion": 9.4,
-    "ubicacion": "Urbanización Villa Padierna, Benahavís",
-    "precioPorNoche": 450,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Alfonso XIII",
-    "calificacion": 9.6,
-    "ubicacion": "Calle San Fernando 2, Sevilla",
-    "precioPorNoche": 420,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Colón Gran Meliá",
-    "calificacion": 9.2,
-    "ubicacion": "Canalejas 1, Sevilla",
-    "precioPorNoche": 280,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Giralda Center",
-    "calificacion": 8.9,
-    "ubicacion": "Av. de Juan Mata Carriazo 6, Sevilla",
-    "precioPorNoche": 140,
-    "estrellas": 4
-  },
-  {
-    "nombre": "EME Catedral Mercer",
-    "calificacion": 8.8,
-    "ubicacion": "Calle Alemanes 27, Sevilla",
-    "precioPorNoche": 310,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Radisson Collection Magdalena Plaza",
-    "calificacion": 9.3,
-    "ubicacion": "Plaza de la Magdalena 1, Sevilla",
-    "precioPorNoche": 260,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Four Seasons Hotel Madrid",
-    "calificacion": 9.7,
-    "ubicacion": "Calle de Sevilla 3, Madrid",
-    "precioPorNoche": 950,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Mandarin Oriental Ritz",
+    "id": "69a7e6b86f0df0889c59812f",
+    "nombre": "Hotel Ritz Madrid (Mandarin Oriental)",
     "calificacion": 9.8,
     "ubicacion": "Plaza de la Lealtad 5, Madrid",
-    "precioPorNoche": 1100,
-    "estrellas": 5
+    "precioPorNoche": 849,
+    "estrellas": 5,
+    "latitud": 40.4158,
+    "longitud": -3.6925
   },
   {
-    "nombre": "The Westin Palace Madrid",
+    "id": "69a7e6b86f0df0889c598130",
+    "nombre": "Hotel W Barcelona",
     "calificacion": 9.2,
-    "ubicacion": "Plaza de las Cortes 7, Madrid",
-    "precioPorNoche": 480,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Rosewood Villa Magna",
-    "calificacion": 9.6,
-    "ubicacion": "Paseo de la Castellana 22, Madrid",
-    "precioPorNoche": 800,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Only YOU Boutique Hotel",
-    "calificacion": 9.4,
-    "ubicacion": "Calle del Barquillo 21, Madrid",
-    "precioPorNoche": 290,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Hotel Urban",
-    "calificacion": 9,
-    "ubicacion": "Carrera de San Jerónimo 34, Madrid",
-    "precioPorNoche": 260,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Thompson Madrid",
-    "calificacion": 9.2,
-    "ubicacion": "Calle de la Aduana 27, Madrid",
-    "precioPorNoche": 380,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Dear Hotel Madrid",
-    "calificacion": 8.9,
-    "ubicacion": "Gran Vía 80, Madrid",
-    "precioPorNoche": 180,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Majestic Hotel & Spa",
-    "calificacion": 9.3,
-    "ubicacion": "Passeig de Gràcia 68, Barcelona",
-    "precioPorNoche": 350,
-    "estrellas": 5
-  },
-  {
-    "nombre": "W Barcelona",
-    "calificacion": 8.6,
     "ubicacion": "Plaça Rosa Del Vents 1, Barcelona",
-    "precioPorNoche": 420,
-    "estrellas": 5
+    "precioPorNoche": 380,
+    "estrellas": 5,
+    "latitud": 41.3683,
+    "longitud": 2.1902
   },
   {
-    "nombre": "Hotel Arts Barcelona",
-    "calificacion": 9.1,
-    "ubicacion": "Carrer de la Marina 19, Barcelona",
-    "precioPorNoche": 400,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Mandarin Oriental Barcelona",
-    "calificacion": 9.5,
-    "ubicacion": "Passeig de Gràcia 38, Barcelona",
-    "precioPorNoche": 750,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Ohla Barcelona",
-    "calificacion": 9.2,
-    "ubicacion": "Via Laietana 49, Barcelona",
-    "precioPorNoche": 280,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel 1898",
-    "calificacion": 9.3,
-    "ubicacion": "La Rambla 109, Barcelona",
-    "precioPorNoche": 240,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Cotton House Hotel",
-    "calificacion": 9.4,
-    "ubicacion": "Gran Via de les Corts Catalanes 670, Barcelona",
-    "precioPorNoche": 320,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Las Arenas Balneario Resort",
-    "calificacion": 9.1,
-    "ubicacion": "Carrer d'Eugènia Viñes 22, Valencia",
-    "precioPorNoche": 280,
-    "estrellas": 5
-  },
-  {
-    "nombre": "The Westin Valencia",
-    "calificacion": 9,
-    "ubicacion": "Carrer d'Amadeu de Savoia 16, Valencia",
-    "precioPorNoche": 220,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Caro Hotel",
-    "calificacion": 9.4,
-    "ubicacion": "Carrer de l'Almirall 14, Valencia",
-    "precioPorNoche": 250,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hospes Palau de la Mar",
-    "calificacion": 8.8,
-    "ubicacion": "Av. de Navarro Reverter 14, Valencia",
-    "precioPorNoche": 190,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Only YOU Hotel Valencia",
-    "calificacion": 9.3,
-    "ubicacion": "Plaça de Rodrigo Botet 5, Valencia",
-    "precioPorNoche": 210,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Gran Hotel Domine Bilbao",
-    "calificacion": 9.4,
-    "ubicacion": "Mazarredo Zumarkalea 61, Bilbao",
-    "precioPorNoche": 200,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Carlton",
-    "calificacion": 8.9,
-    "ubicacion": "Federico Moyúa Plaza 2, Bilbao",
-    "precioPorNoche": 160,
-    "estrellas": 5
-  },
-  {
+    "id": "69a7e6b86f0df0889c598131",
     "nombre": "Hotel Maria Cristina",
     "calificacion": 9.7,
-    "ubicacion": "República Argentina Kalea 4, San Sebastián",
-    "precioPorNoche": 450,
-    "estrellas": 5
+    "ubicacion": "Paseo República Argentina 4, San Sebastián",
+    "precioPorNoche": 420,
+    "estrellas": 5,
+    "latitud": 43.3228,
+    "longitud": -1.9814
   },
   {
-    "nombre": "Akelaŕe",
-    "calificacion": 9.5,
-    "ubicacion": "Padre Orkolaga Ibilbidea 56, San Sebastián",
-    "precioPorNoche": 600,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Ushuaïa Ibiza Beach Hotel",
-    "calificacion": 8.4,
-    "ubicacion": "Ctra. de Platja d'en Bossa 10, Ibiza",
-    "precioPorNoche": 550,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Nobu Hotel Ibiza Bay",
-    "calificacion": 9.1,
-    "ubicacion": "Cami de ses Feixes 52, Ibiza",
-    "precioPorNoche": 650,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel de Mar Gran Meliá",
-    "calificacion": 9.3,
-    "ubicacion": "Paseo de Illetas 7, Mallorca",
-    "precioPorNoche": 380,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Jumeirah Port Soller",
-    "calificacion": 9.5,
-    "ubicacion": "Calle Belgica s/n, Mallorca",
-    "precioPorNoche": 700,
-    "estrellas": 5
-  },
-  {
-    "nombre": "The Ritz-Carlton Abama",
-    "calificacion": 9.2,
-    "ubicacion": "Ctra. General TF-47, Guía de Isora, Tenerife",
-    "precioPorNoche": 450,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Alhambra Palace",
-    "calificacion": 9,
-    "ubicacion": "Plaza de los Aljibes 2, Granada",
-    "precioPorNoche": 220,
-    "estrellas": 5
-  },
-  {
+    "id": "69a7e6b86f0df0889c598132",
     "nombre": "Hospes Palacio de los Patos",
     "calificacion": 9.1,
     "ubicacion": "Calle Solarillo de Gracia 1, Granada",
-    "precioPorNoche": 240,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Parador de Granada",
-    "calificacion": 9.4,
-    "ubicacion": "Real de la Alhambra s/n, Granada",
-    "precioPorNoche": 350,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Eurostars Palace",
-    "calificacion": 8.9,
-    "ubicacion": "Paseo de la Victoria s/n, Córdoba",
-    "precioPorNoche": 130,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Palacio de Villapanés",
-    "calificacion": 9.4,
-    "ubicacion": "Calle Santiago 31, Sevilla",
-    "precioPorNoche": 320,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Valdepalacios",
-    "calificacion": 9.5,
-    "ubicacion": "Ctra. de Oropesa a Puente del Arzobispo, Torrico",
-    "precioPorNoche": 400,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Larios Málaga",
-    "calificacion": 8.9,
-    "ubicacion": "Marqués de Larios 2, Málaga",
-    "precioPorNoche": 185,
-    "estrellas": 4
-  },
-  {
-    "nombre": "NH Málaga",
-    "calificacion": 8.6,
-    "ubicacion": "San Jacinto 2, Málaga",
-    "precioPorNoche": 145,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Parador de Málaga Gibralfaro",
-    "calificacion": 9,
-    "ubicacion": "Castillo de Gibralfaro s/n, Málaga",
     "precioPorNoche": 210,
-    "estrellas": 4
+    "estrellas": 5,
+    "latitud": 37.1725,
+    "longitud": -3.6014
   },
   {
-    "nombre": "Salles Hotel Málaga Centro",
-    "calificacion": 8.7,
-    "ubicacion": "Mármoles 6, Málaga",
-    "precioPorNoche": 155,
-    "estrellas": 4
+    "id": "69a7e6b86f0df0889c598133",
+    "nombre": "Hotel Carlton Bilbao",
+    "calificacion": 9,
+    "ubicacion": "Federico Moyúa Plaza 2, Bilbao",
+    "precioPorNoche": 160,
+    "estrellas": 5,
+    "latitud": 43.2629,
+    "longitud": -2.9351
   },
   {
-    "nombre": "Hotel MS Amaragua",
-    "calificacion": 8.5,
-    "ubicacion": "Calle de los Nidos 23, Torremolinos",
-    "precioPorNoche": 120,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Meliá Costa del Sol",
-    "calificacion": 8.8,
-    "ubicacion": "Paseo Marítimo 11, Torremolinos",
-    "precioPorNoche": 165,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Ikos Andalucía",
-    "calificacion": 9.7,
-    "ubicacion": "N-340, Km 164, Estepona",
-    "precioPorNoche": 550,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Kempinski Hotel Bahía",
-    "calificacion": 9.3,
-    "ubicacion": "Autovía del Mediterráneo Km 159, Estepona",
-    "precioPorNoche": 380,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Gran Hotel Guadalpín Banús",
-    "calificacion": 8.6,
-    "ubicacion": "Calle Edgar Neville s/n, Marbella",
-    "precioPorNoche": 290,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Don Carlos Resort & Spa",
-    "calificacion": 8.9,
-    "ubicacion": "Av. de España s/n, Marbella",
-    "precioPorNoche": 340,
-    "estrellas": 5
-  },
-  {
-    "nombre": "W Madrid (Hotel Me)",
-    "calificacion": 9.1,
-    "ubicacion": "Plaza de Santa Ana 14, Madrid",
-    "precioPorNoche": 350,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Wellington Hotel & Spa",
-    "calificacion": 9.2,
-    "ubicacion": "Calle de Velázquez 6, Madrid",
-    "precioPorNoche": 310,
-    "estrellas": 5
-  },
-  {
-    "nombre": "NH Collection Madrid Suecia",
-    "calificacion": 8.8,
-    "ubicacion": "Calle del Marqués de Casa Riera 4, Madrid",
-    "precioPorNoche": 220,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Gran Versalles",
-    "calificacion": 8.4,
-    "ubicacion": "Calle de Almagro 13, Madrid",
-    "precioPorNoche": 130,
-    "estrellas": 4
-  },
-  {
-    "nombre": "Bless Hotel Madrid",
+    "id": "69a7e6b86f0df0889c598134",
+    "nombre": "Palacio de los Duques Gran Meliá",
     "calificacion": 9.5,
-    "ubicacion": "Calle de Velázquez 62, Madrid",
-    "precioPorNoche": 420,
-    "estrellas": 5
+    "ubicacion": "Cuesta Santo Domingo 5, Madrid",
+    "precioPorNoche": 480,
+    "estrellas": 5,
+    "latitud": 40.4198,
+    "longitud": -3.7089
   },
   {
-    "nombre": "VP Plaza España Design",
+    "id": "69a7e6b86f0df0889c598135",
+    "nombre": "Majestic Hotel & Spa",
     "calificacion": 9.3,
-    "ubicacion": "Plaza de España 5, Madrid",
-    "precioPorNoche": 380,
-    "estrellas": 5
+    "ubicacion": "Passeig de Gràcia 68, Barcelona",
+    "precioPorNoche": 350,
+    "estrellas": 5,
+    "latitud": 41.3919,
+    "longitud": 2.1648
   },
   {
-    "nombre": "Hotel Neri Boutique",
+    "id": "69a7e6b86f0df0889c598136",
+    "nombre": "Vincci Selección Aleysa",
+    "calificacion": 9.9,
+    "ubicacion": "Avenida Antonio Machado 54, Benalmádena",
+    "precioPorNoche": 410,
+    "estrellas": 5,
+    "latitud": 36.5956,
+    "longitud": -4.5235
+  },
+  {
+    "id": "69a7e6b86f0df0889c598137",
+    "nombre": "Eurostars Tower",
+    "calificacion": 8.9,
+    "ubicacion": "Paseo de la Castellana 259, Madrid",
+    "precioPorNoche": 190,
+    "estrellas": 5,
+    "latitud": 40.4785,
+    "longitud": -3.6886
+  },
+  {
+    "id": "69a7e6b86f0df0889c598138",
+    "nombre": "Hotel 1898",
+    "calificacion": 9.1,
+    "ubicacion": "La Rambla 109, Barcelona",
+    "precioPorNoche": 240,
+    "estrellas": 4,
+    "latitud": 41.3838,
+    "longitud": 2.1712
+  },
+  {
+    "id": "69a7e6b86f0df0889c598139",
+    "nombre": "Marbella Club Hotel",
+    "calificacion": 9.8,
+    "ubicacion": "Av. Bulevar Príncipe Alfonso de Hohenlohe, Marbella",
+    "precioPorNoche": 950,
+    "estrellas": 5,
+    "latitud": 36.5022,
+    "longitud": -4.9255
+  },
+  {
+    "id": "69a7e6b86f0df0889c59813a",
+    "nombre": "Caro Hotel",
     "calificacion": 9.4,
+    "ubicacion": "Carrer de l'Adreçadors 14, Valencia",
+    "precioPorNoche": 260,
+    "estrellas": 5,
+    "latitud": 39.4758,
+    "longitud": -0.3732
+  },
+  {
+    "id": "69a7e6b86f0df0889c59813b",
+    "nombre": "Hotel Eme Catedral",
+    "calificacion": 8.7,
+    "ubicacion": "Calle Alemanes 27, Sevilla",
+    "precioPorNoche": 290,
+    "estrellas": 5,
+    "latitud": 37.3862,
+    "longitud": -5.9928
+  },
+  {
+    "id": "69a7e6b86f0df0889c59813c",
+    "nombre": "Gran Hotel La Florida",
+    "calificacion": 8.8,
+    "ubicacion": "Ctra. de Vallvidrera al Tibidabo 83, Barcelona",
+    "precioPorNoche": 220,
+    "estrellas": 5,
+    "latitud": 41.4219,
+    "longitud": 2.1195
+  },
+  {
+    "id": "69a7e6b86f0df0889c59813d",
+    "nombre": "Parador de Santiago - Hostal Reis Catolicos",
+    "calificacion": 9.6,
+    "ubicacion": "Praza do Obradoiro 1, Santiago",
+    "precioPorNoche": 280,
+    "estrellas": 5,
+    "latitud": 42.8808,
+    "longitud": -8.5458
+  },
+  {
+    "id": "69a7e6b86f0df0889c59813e",
+    "nombre": "Can Faustino",
+    "calificacion": 9.3,
+    "ubicacion": "Sa Muradeta 22, Menorca",
+    "precioPorNoche": 340,
+    "estrellas": 5,
+    "latitud": 39.9995,
+    "longitud": 3.8272
+  },
+  {
+    "id": "69a7e6b86f0df0889c59813f",
+    "nombre": "Hotel Mercer Sevilla",
+    "calificacion": 9.8,
+    "ubicacion": "Calle Castelar 26, Sevilla",
+    "precioPorNoche": 450,
+    "estrellas": 5,
+    "latitud": 37.3855,
+    "longitud": -5.9961
+  },
+  {
+    "id": "69a7e6b86f0df0889c598140",
+    "nombre": "Gran Hotel Sóller",
+    "calificacion": 9,
+    "ubicacion": "Carrer de Sa Lluna 23, Mallorca",
+    "precioPorNoche": 180,
+    "estrellas": 5,
+    "latitud": 39.7665,
+    "longitud": 2.7155
+  },
+  {
+    "id": "69a7e6b86f0df0889c598141",
+    "nombre": "Only YOU Boutique Hotel",
+    "calificacion": 9.2,
+    "ubicacion": "Calle del Barquillo 21, Madrid",
+    "precioPorNoche": 270,
+    "estrellas": 4,
+    "latitud": 40.4225,
+    "longitud": -3.6968
+  },
+  {
+    "id": "69a7e6b86f0df0889c598142",
+    "nombre": "Eurostars Palace",
+    "calificacion": 8.8,
+    "ubicacion": "Paseo de la Victoria, Córdoba",
+    "precioPorNoche": 140,
+    "estrellas": 5,
+    "latitud": 37.8828,
+    "longitud": -4.7865
+  },
+  {
+    "id": "69a7e6b86f0df0889c598143",
+    "nombre": "AC Hotel Malaga Palacio",
+    "calificacion": 8.9,
+    "ubicacion": "Cortina del Muelle 1, Málaga",
+    "precioPorNoche": 200,
+    "estrellas": 4,
+    "latitud": 36.7198,
+    "longitud": -4.4192
+  },
+  {
+    "id": "69a7e6b86f0df0889c598144",
+    "nombre": "Hotel Casa Fuster",
+    "calificacion": 9.3,
+    "ubicacion": "Passeig de Gràcia 132, Barcelona",
+    "precioPorNoche": 310,
+    "estrellas": 5,
+    "latitud": 41.3992,
+    "longitud": 2.1585
+  },
+  {
+    "id": "69a7e6b86f0df0889c598145",
+    "nombre": "Belmond La Residencia",
+    "calificacion": 9.9,
+    "ubicacion": "Son Canals s/n, Deià, Mallorca",
+    "precioPorNoche": 1100,
+    "estrellas": 5,
+    "latitud": 39.7478,
+    "longitud": 2.6415
+  },
+  {
+    "id": "69a7e6b86f0df0889c598146",
+    "nombre": "NH Collection Gran Hotel Calderón",
+    "calificacion": 9,
+    "ubicacion": "Rambla de Catalunya 26, Barcelona",
+    "precioPorNoche": 230,
+    "estrellas": 5,
+    "latitud": 41.3895,
+    "longitud": 2.1678
+  },
+  {
+    "id": "69a7e6b86f0df0889c598147",
+    "nombre": "Bless Hotel Madrid",
+    "calificacion": 9.4,
+    "ubicacion": "Calle de Velázquez 62, Madrid",
+    "precioPorNoche": 520,
+    "estrellas": 5,
+    "latitud": 40.4298,
+    "longitud": -3.6835
+  },
+  {
+    "id": "69a7e6b86f0df0889c598148",
+    "nombre": "Hotel Miramar Barcelona",
+    "calificacion": 8.7,
+    "ubicacion": "Plaça de l'Armada 1, Barcelona",
+    "precioPorNoche": 260,
+    "estrellas": 5,
+    "latitud": 41.3695,
+    "longitud": 2.1672
+  },
+  {
+    "id": "69a7e6b86f0df0889c598149",
+    "nombre": "Hospes Palacio del Bailío",
+    "calificacion": 9.2,
+    "ubicacion": "Calle Ramírez de las Casas Deza 10, Córdoba",
+    "precioPorNoche": 240,
+    "estrellas": 5,
+    "latitud": 37.8875,
+    "longitud": -4.7778
+  },
+  {
+    "id": "69a7e6b86f0df0889c59814a",
+    "nombre": "Hotel Neri",
+    "calificacion": 9.5,
     "ubicacion": "Carrer de Sant Sever 5, Barcelona",
     "precioPorNoche": 390,
-    "estrellas": 5
+    "estrellas": 5,
+    "latitud": 41.3831,
+    "longitud": 2.1755
   },
   {
-    "nombre": "Mercer Hotel Barcelona",
-    "calificacion": 9.6,
-    "ubicacion": "Carrer dels Lledó 7, Barcelona",
-    "precioPorNoche": 450,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Jazz",
-    "calificacion": 8.9,
-    "ubicacion": "Carrer de Pelai 3, Barcelona",
-    "precioPorNoche": 160,
-    "estrellas": 3
-  },
-  {
-    "nombre": "Hotel Pulitzer",
+    "id": "69a7e6b86f0df0889c59814b",
+    "nombre": "Palacio de Santa Paula",
     "calificacion": 9,
-    "ubicacion": "Carrer de Bergara 8, Barcelona",
-    "precioPorNoche": 190,
-    "estrellas": 4
+    "ubicacion": "Calle Gran Vía de Colón 31, Granada",
+    "precioPorNoche": 220,
+    "estrellas": 5,
+    "latitud": 37.1788,
+    "longitud": -3.5995
   },
   {
+    "id": "69a7e6b86f0df0889c59814c",
+    "nombre": "Jumeirah Port Soller",
+    "calificacion": 9.6,
+    "ubicacion": "Calle de la Belgica s/n, Port de Sóller",
+    "precioPorNoche": 680,
+    "estrellas": 5,
+    "latitud": 39.7995,
+    "longitud": 2.6935
+  },
+  {
+    "id": "69a7e6b86f0df0889c59814d",
+    "nombre": "ME Madrid Reina Victoria",
+    "calificacion": 8.9,
+    "ubicacion": "Plaza de Santa Ana 14, Madrid",
+    "precioPorNoche": 320,
+    "estrellas": 4,
+    "latitud": 40.4142,
+    "longitud": -3.7018
+  },
+  {
+    "id": "69a7e6b86f0df0889c59814e",
+    "nombre": "H10 Palacio Colomera",
+    "calificacion": 9.3,
+    "ubicacion": "Plaza de las Tendillas 3, Córdoba",
+    "precioPorNoche": 160,
+    "estrellas": 4,
+    "latitud": 37.8845,
+    "longitud": -4.7792
+  },
+  {
+    "id": "69a7e6b86f0df0889c59814f",
+    "nombre": "Hotel Viura",
+    "calificacion": 9.1,
+    "ubicacion": "Calle Mayor s/n, Villabuena de Álava",
+    "precioPorNoche": 195,
+    "estrellas": 4,
+    "latitud": 42.5485,
+    "longitud": -2.6658
+  },
+  {
+    "id": "69a7e6b86f0df0889c598150",
+    "nombre": "Marqués de Riscal",
+    "calificacion": 9.4,
+    "ubicacion": "Calle Torrea 1, Elciego",
+    "precioPorNoche": 580,
+    "estrellas": 5,
+    "latitud": 42.5115,
+    "longitud": -2.6185
+  },
+  {
+    "id": "69a7e6b86f0df0889c598151",
+    "nombre": "Hotel Alhambra Palace",
+    "calificacion": 9.2,
+    "ubicacion": "Plaza Arquitecto García de Paredes 1, Granada",
+    "precioPorNoche": 250,
+    "estrellas": 5,
+    "latitud": 37.1745,
+    "longitud": -3.5898
+  },
+  {
+    "id": "69a7e6b86f0df0889c598152",
+    "nombre": "Gran Hotel Nagari",
+    "calificacion": 9.1,
+    "ubicacion": "Praza de Compostela 21, Vigo",
+    "precioPorNoche": 175,
+    "estrellas": 5,
+    "latitud": 42.2388,
+    "longitud": -8.7235
+  },
+  {
+    "id": "69a7e6b86f0df0889c598153",
+    "nombre": "Hotel Rector",
+    "calificacion": 9.9,
+    "ubicacion": "Rector Esperabé 10, Salamanca",
+    "precioPorNoche": 210,
+    "estrellas": 4,
+    "latitud": 40.9602,
+    "longitud": -5.6661
+  },
+  {
+    "id": "69a7e6b86f0df0889c598154",
+    "nombre": "Urso Hotel & Spa",
+    "calificacion": 9.4,
+    "ubicacion": "Calle de Mejía Lequerica 8, Madrid",
+    "precioPorNoche": 380,
+    "estrellas": 5,
+    "latitud": 40.4272,
+    "longitud": -3.6975
+  },
+  {
+    "id": "69a7e6b86f0df0889c598155",
+    "nombre": "Nobu Hotel Ibiza Bay",
+    "calificacion": 9.3,
+    "ubicacion": "Carrer de Ses Feixes 52, Ibiza",
+    "precioPorNoche": 720,
+    "estrellas": 5,
+    "latitud": 38.9165,
+    "longitud": 1.4502
+  },
+  {
+    "id": "69a7e6b86f0df0889c598156",
+    "nombre": "Hacienda Na Xamena",
+    "calificacion": 9.5,
+    "ubicacion": "Na Xamena s/n, San Miguel, Ibiza",
+    "precioPorNoche": 650,
+    "estrellas": 5,
+    "latitud": 39.0835,
+    "longitud": 1.4285
+  },
+  {
+    "id": "69a7e6b86f0df0889c598157",
+    "nombre": "Hotel Monopol",
+    "calificacion": 8.5,
+    "ubicacion": "Calle Quintana 15, Puerto de la Cruz",
+    "precioPorNoche": 85,
+    "estrellas": 3,
+    "latitud": 28.4178,
+    "longitud": -16.5502
+  },
+  {
+    "id": "69a7e6b86f0df0889c598158",
+    "nombre": "Gran Hotel Domine",
+    "calificacion": 9.4,
+    "ubicacion": "Mazarredo Zumarkalea 61, Bilbao",
+    "precioPorNoche": 205,
+    "estrellas": 5,
+    "latitud": 43.2685,
+    "longitud": -2.9348
+  },
+  {
+    "id": "69a7e6b86f0df0889c598159",
     "nombre": "Serras Barcelona",
     "calificacion": 9.7,
     "ubicacion": "Passeig de Colom 9, Barcelona",
-    "precioPorNoche": 480,
-    "estrellas": 5
+    "precioPorNoche": 420,
+    "estrellas": 5,
+    "latitud": 41.3808,
+    "longitud": 2.1812
   },
   {
-    "nombre": "Hospes Palacio del Bailío",
-    "calificacion": 9.3,
-    "ubicacion": "Calle de Ramírez de las Casas Deza 10, Córdoba",
-    "precioPorNoche": 260,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Parador de Cádiz",
+    "id": "69a7e6b86f0df0889c59815a",
+    "nombre": "Hotel Mercer Torre del Canónigo",
     "calificacion": 9.2,
-    "ubicacion": "Av. Duque de Nájera 9, Cádiz",
-    "precioPorNoche": 195,
-    "estrellas": 4
+    "ubicacion": "Carrer Major 8, Ibiza",
+    "precioPorNoche": 330,
+    "estrellas": 4,
+    "latitud": 38.9078,
+    "longitud": 1.4365
   },
   {
-    "nombre": "Hotel Playa Victoria",
-    "calificacion": 8.7,
-    "ubicacion": "Plaza de Ingeniero la Cierva 4, Cádiz",
-    "precioPorNoche": 150,
-    "estrellas": 4
-  },
-  {
-    "nombre": "AC Hotel Palacio de Santa Paula",
-    "calificacion": 9.2,
-    "ubicacion": "Gran Vía de Colón 31, Granada",
-    "precioPorNoche": 230,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Eurostars Hotel Real",
-    "calificacion": 9.4,
-    "ubicacion": "Av. de los Castros 155, Santander",
-    "precioPorNoche": 250,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Parador de Santiago - Hostal dos Reis Católicos",
-    "calificacion": 9.6,
-    "ubicacion": "Praza do Obradoiro 1, Santiago de Compostela",
-    "precioPorNoche": 320,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Gran Hotel La Perla",
-    "calificacion": 9.3,
-    "ubicacion": "Plaza del Castillo 1, Pamplona",
-    "precioPorNoche": 210,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Hotel Palafox",
-    "calificacion": 8.8,
-    "ubicacion": "Calle de la Marquesa de Casa Jiménez s/n, Zaragoza",
-    "precioPorNoche": 150,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Eugenia de Montijo",
+    "id": "69a7e6b86f0df0889c59815b",
+    "nombre": "H10 Villa de la Reina",
     "calificacion": 8.9,
-    "ubicacion": "Plaza del Juego de Pelota 7, Toledo",
-    "precioPorNoche": 145,
-    "estrellas": 5
+    "ubicacion": "Gran Vía 22, Madrid",
+    "precioPorNoche": 185,
+    "estrellas": 4,
+    "latitud": 40.4192,
+    "longitud": -3.7008
   },
   {
-    "nombre": "Parador de Segovia",
-    "calificacion": 8.8,
-    "ubicacion": "Ctra. de Valladolid s/n, Segovia",
-    "precioPorNoche": 160,
-    "estrellas": 4
+    "id": "69a7e6b86f0df0889c59815c",
+    "nombre": "Santa Catalina, a Royal Hideaway",
+    "calificacion": 9.3,
+    "ubicacion": "Calle León y Castillo 227, Las Palmas",
+    "precioPorNoche": 260,
+    "estrellas": 5,
+    "latitud": 28.1212,
+    "longitud": -15.4295
   },
   {
-    "nombre": "NH Collection Palacio de Castellanos",
-    "calificacion": 9,
-    "ubicacion": "San Pablo 58, Salamanca",
-    "precioPorNoche": 140,
-    "estrellas": 4
+    "id": "69a7e6b86f0df0889c59815d",
+    "nombre": "Hotel San Roque",
+    "calificacion": 9.4,
+    "ubicacion": "Calle Esteban de Ponte 32, Garachico",
+    "precioPorNoche": 215,
+    "estrellas": 4,
+    "latitud": 28.3725,
+    "longitud": -16.7645
   },
   {
-    "nombre": "Castillo Son Vida",
-    "calificacion": 9.5,
-    "ubicacion": "Calle de Raixa 2, Palma de Mallorca",
+    "id": "69a7e6b86f0df0889c59815e",
+    "nombre": "Posada Terra Santa",
+    "calificacion": 9.6,
+    "ubicacion": "Carrer de la Posada de Terra Santa 5, Palma",
+    "precioPorNoche": 290,
+    "estrellas": 4,
+    "latitud": 39.5708,
+    "longitud": 2.6518
+  },
+  {
+    "id": "69a7e6b86f0df0889c59815f",
+    "nombre": "Lani's Suites Deluxe",
+    "calificacion": 9.9,
+    "ubicacion": "Av. de las Playas 26, Lanzarote",
     "precioPorNoche": 550,
-    "estrellas": 5
+    "estrellas": 5,
+    "latitud": 28.9215,
+    "longitud": -13.6425
   },
   {
-    "nombre": "Hotel Valparaiso Palace & Spa",
-    "calificacion": 8.9,
-    "ubicacion": "Carrer de Francisco Vidal i Sureda 23, Palma de Mallorca",
-    "precioPorNoche": 280,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Santa Catalina, a Royal Hideaway Hotel",
-    "calificacion": 9.4,
-    "ubicacion": "Calle León y Castillo 227, Las Palmas de Gran Canaria",
-    "precioPorNoche": 260,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Princesa Yaiza Suite Hotel Resort",
-    "calificacion": 9.2,
-    "ubicacion": "Av. de Papagayo 22, Playa Blanca, Lanzarote",
-    "precioPorNoche": 350,
-    "estrellas": 5
-  },
-  {
-    "nombre": "Gran Hotel Atlantis Bahía Real",
-    "calificacion": 9.4,
-    "ubicacion": "Av. Grandes Playas s/n, Corralejo, Fuerteventura",
-    "precioPorNoche": 400,
-    "estrellas": 5
-  },
-  {
-    "nombre": "7Pines Resort Ibiza",
+    "id": "69a7e6b86f0df0889c598160",
+    "nombre": "Hotel Fariones",
     "calificacion": 9.5,
-    "ubicacion": "Calle Puig Delfí s/n, Sant Josep de sa Talaia, Ibiza",
-    "precioPorNoche": 720,
-    "estrellas": 5
+    "ubicacion": "Calle Roque del Oeste 1, Lanzarote",
+    "precioPorNoche": 380,
+    "estrellas": 5,
+    "latitud": 28.9195,
+    "longitud": -13.6685
   },
   {
-    "nombre": "Helvetia Boutique Hotel",
-    "calificacion": 9.3,
-    "ubicacion": "Carrer de la Pau 11, Valencia",
-    "precioPorNoche": 220,
-    "estrellas": 4
+    "id": "69a7e71d6f0df0889c598162",
+    "nombre": "Hotel Hostal de la Gavina",
+    "calificacion": 9.7,
+    "ubicacion": "Plaza de la Rosaleda s/n, S'Agaró, Girona",
+    "precioPorNoche": 450,
+    "estrellas": 5,
+    "latitud": 41.7912,
+    "longitud": 3.0558
   },
   {
-    "nombre": "Hospes Amérigo",
-    "calificacion": 9.1,
-    "ubicacion": "Calle Rafael Altamira 7, Alicante",
+    "id": "69a7e71d6f0df0889c598163",
+    "nombre": "Hotel Santa Marta",
+    "calificacion": 9.4,
+    "ubicacion": "Platja de Santa Marta, Lloret de Mar",
+    "precioPorNoche": 280,
+    "estrellas": 5,
+    "latitud": 41.6935,
+    "longitud": 2.8212
+  },
+  {
+    "id": "69a7e71d6f0df0889c598164",
+    "nombre": "Eurostars Gran Hotel La Toja",
+    "calificacion": 9.2,
+    "ubicacion": "Isla de la Toja, Pontevedra",
     "precioPorNoche": 190,
-    "estrellas": 5
+    "estrellas": 5,
+    "latitud": 42.4915,
+    "longitud": -8.8502
   },
   {
-    "nombre": "Marqués de Riscal, a Luxury Collection Hotel",
-    "calificacion": 9.6,
-    "ubicacion": "Calle Torrea 1, Elciego",
-    "precioPorNoche": 650,
-    "estrellas": 5
+    "id": "69a7e71d6f0df0889c598165",
+    "nombre": "Hotel Reconquista",
+    "calificacion": 9.1,
+    "ubicacion": "Gil de Jaz 16, Oviedo",
+    "precioPorNoche": 165,
+    "estrellas": 5,
+    "latitud": 43.3642,
+    "longitud": -5.8505
   },
   {
-    "nombre": "Hotel Viura",
+    "id": "69a7e71d6f0df0889c598166",
+    "nombre": "Palacio de Luces",
+    "calificacion": 9.5,
+    "ubicacion": "Ctra. AS-257 s/n, Luces, Asturias",
+    "precioPorNoche": 220,
+    "estrellas": 5,
+    "latitud": 43.5112,
+    "longitud": -5.2815
+  },
+  {
+    "id": "69a7e71d6f0df0889c598167",
+    "nombre": "Hotel Naguar",
+    "calificacion": 8.8,
+    "ubicacion": "Calle San Antonio 10, Gijón",
+    "precioPorNoche": 110,
+    "estrellas": 4,
+    "latitud": 43.5422,
+    "longitud": -5.6615
+  },
+  {
+    "id": "69a7e71d6f0df0889c598168",
+    "nombre": "Parador de Cangas de Onís",
+    "calificacion": 9.4,
+    "ubicacion": "Villanueva de Cangas, Asturias",
+    "precioPorNoche": 155,
+    "estrellas": 4,
+    "latitud": 43.3585,
+    "longitud": -5.1432
+  },
+  {
+    "id": "69a7e71d6f0df0889c598169",
+    "nombre": "Gran Hotel Sardinero",
     "calificacion": 9,
+    "ubicacion": "Plaza de Italia 1, Santander",
+    "precioPorNoche": 145,
+    "estrellas": 4,
+    "latitud": 43.4722,
+    "longitud": -3.7835
+  },
+  {
+    "id": "69a7e71d6f0df0889c59816a",
+    "nombre": "Hotel Bahía Santander",
+    "calificacion": 8.7,
+    "ubicacion": "Alfonso XIII 6, Santander",
+    "precioPorNoche": 125,
+    "estrellas": 4,
+    "latitud": 43.4618,
+    "longitud": -3.8042
+  },
+  {
+    "id": "69a7e71d6f0df0889c59816b",
+    "nombre": "Hotel Marqués de Vallejo",
+    "calificacion": 9.2,
+    "ubicacion": "Marqués de Vallejo 8, Logroño",
+    "precioPorNoche": 115,
+    "estrellas": 3,
+    "latitud": 42.4645,
+    "longitud": -2.4452
+  },
+  {
+    "id": "69a7e71d6f0df0889c59816c",
+    "nombre": "Hotel Calle Mayor",
+    "calificacion": 9.3,
+    "ubicacion": "Calle Mayor 15, Logroño",
+    "precioPorNoche": 130,
+    "estrellas": 4,
+    "latitud": 42.4665,
+    "longitud": -2.4468
+  },
+  {
+    "id": "69a7e71d6f0df0889c59816d",
+    "nombre": "Hotel Valdepalacios",
+    "calificacion": 9.8,
+    "ubicacion": "Ctra. de Oropesa a Puente del Arzobispo, Toledo",
+    "precioPorNoche": 380,
+    "estrellas": 5,
+    "latitud": 39.8785,
+    "longitud": -5.1745
+  },
+  {
+    "id": "69a7e71d6f0df0889c59816e",
+    "nombre": "Eugenia de Montijo",
+    "calificacion": 9,
+    "ubicacion": "Plaza del Juego de Pelota 7, Toledo",
+    "precioPorNoche": 140,
+    "estrellas": 5,
+    "latitud": 39.8565,
+    "longitud": -4.0295
+  },
+  {
+    "id": "69a7e71d6f0df0889c59816f",
+    "nombre": "Parador de Cuenca",
+    "calificacion": 9.3,
+    "ubicacion": "Subida a San Pablo s/n, Cuenca",
+    "precioPorNoche": 160,
+    "estrellas": 4,
+    "latitud": 40.0785,
+    "longitud": -2.1285
+  },
+  {
+    "id": "69a7e71d6f0df0889c598170",
+    "nombre": "Hotel NH Collection Palacio de Aranjuez",
+    "calificacion": 8.9,
+    "ubicacion": "Calle de San Antonio 22, Aranjuez",
+    "precioPorNoche": 110,
+    "estrellas": 4,
+    "latitud": 40.0365,
+    "longitud": -3.6035
+  },
+  {
+    "id": "69a7e71d6f0df0889c598171",
+    "nombre": "Palacio de los Velada",
+    "calificacion": 8.6,
+    "ubicacion": "Plaza de la Catedral 10, Ávila",
+    "precioPorNoche": 95,
+    "estrellas": 4,
+    "latitud": 40.6565,
+    "longitud": -4.6972
+  },
+  {
+    "id": "69a7e71d6f0df0889c598172",
+    "nombre": "Hotel Fontecruz Ávila",
+    "calificacion": 8.8,
+    "ubicacion": "Ctra. Antigua de Gredos s/n, Ávila",
+    "precioPorNoche": 120,
+    "estrellas": 4,
+    "latitud": 40.6325,
+    "longitud": -4.7115
+  },
+  {
+    "id": "69a7e71d6f0df0889c598173",
+    "nombre": "Abadía Retuerta LeDomaine",
+    "calificacion": 9.9,
+    "ubicacion": "Sardon de Duero, Valladolid",
+    "precioPorNoche": 650,
+    "estrellas": 5,
+    "latitud": 41.6115,
+    "longitud": -4.4085
+  },
+  {
+    "id": "69a7e71d6f0df0889c598174",
+    "nombre": "Hotel AC Palacio de Santa Ana",
+    "calificacion": 9,
+    "ubicacion": "Camino de la Flecha s/n, Valladolid",
+    "precioPorNoche": 135,
+    "estrellas": 5,
+    "latitud": 41.6212,
+    "longitud": -4.7585
+  },
+  {
+    "id": "69a7e71d6f0df0889c598175",
+    "nombre": "Palacio de la Merced",
+    "calificacion": 8.9,
+    "ubicacion": "Calle de la Merced 13, Burgos",
+    "precioPorNoche": 115,
+    "estrellas": 4,
+    "latitud": 42.3385,
+    "longitud": -3.7015
+  },
+  {
+    "id": "69a7e71d6f0df0889c598176",
+    "nombre": "Hotel Landa",
+    "calificacion": 9.5,
+    "ubicacion": "Ctra. Madrid-Irún km 235, Burgos",
+    "precioPorNoche": 195,
+    "estrellas": 5,
+    "latitud": 42.3112,
+    "longitud": -3.7185
+  },
+  {
+    "id": "69a7e71d6f0df0889c598177",
+    "nombre": "Hotel Real de Santander",
+    "calificacion": 9.4,
+    "ubicacion": "Paseo de Pérez Galdós 28, Santander",
+    "precioPorNoche": 280,
+    "estrellas": 5,
+    "latitud": 43.4715,
+    "longitud": -3.7815
+  },
+  {
+    "id": "69a7e71d6f0df0889c598178",
+    "nombre": "Vincci Soma",
+    "calificacion": 8.7,
+    "ubicacion": "Calle de Goya 79, Madrid",
+    "precioPorNoche": 160,
+    "estrellas": 4,
+    "latitud": 40.4252,
+    "longitud": -3.6765
+  },
+  {
+    "id": "69a7e71d6f0df0889c598179",
+    "nombre": "Hotel Urban",
+    "calificacion": 9.2,
+    "ubicacion": "Carrera de San Jerónimo 34, Madrid",
+    "precioPorNoche": 290,
+    "estrellas": 5,
+    "latitud": 40.4168,
+    "longitud": -3.6998
+  },
+  {
+    "id": "69a7e71d6f0df0889c59817a",
+    "nombre": "Cotton House Hotel",
+    "calificacion": 9.6,
+    "ubicacion": "Gran Via de les Corts Catalanes 670, Barcelona",
+    "precioPorNoche": 340,
+    "estrellas": 5,
+    "latitud": 41.3905,
+    "longitud": 2.1725
+  },
+  {
+    "id": "69a7e71d6f0df0889c59817b",
+    "nombre": "Alma Barcelona",
+    "calificacion": 9.5,
+    "ubicacion": "Carrer de Mallorca 271, Barcelona",
+    "precioPorNoche": 380,
+    "estrellas": 5,
+    "latitud": 41.3938,
+    "longitud": 2.1618
+  },
+  {
+    "id": "69a7e71d6f0df0889c59817c",
+    "nombre": "Hotel Ohla Barcelona",
+    "calificacion": 9.3,
+    "ubicacion": "Via Laietana 49, Barcelona",
+    "precioPorNoche": 310,
+    "estrellas": 5,
+    "latitud": 41.3872,
+    "longitud": 2.1748
+  },
+  {
+    "id": "69a7e71d6f0df0889c59817d",
+    "nombre": "Hotel Mercer Barcelona",
+    "calificacion": 9.8,
+    "ubicacion": "Carrer dels Lledó 7, Barcelona",
+    "precioPorNoche": 480,
+    "estrellas": 5,
+    "latitud": 41.3828,
+    "longitud": 2.1792
+  },
+  {
+    "id": "69a7e71d6f0df0889c59817e",
+    "nombre": "Gran Hotel Inglés",
+    "calificacion": 9.7,
+    "ubicacion": "Calle de Echegaray 8, Madrid",
+    "precioPorNoche": 420,
+    "estrellas": 5,
+    "latitud": 40.4158,
+    "longitud": -3.7002
+  },
+  {
+    "id": "69a7e71d6f0df0889c59817f",
+    "nombre": "Hotel Wellington",
+    "calificacion": 9.1,
+    "ubicacion": "Calle de Velázquez 8, Madrid",
+    "precioPorNoche": 260,
+    "estrellas": 5,
+    "latitud": 40.4215,
+    "longitud": -3.6845
+  },
+  {
+    "id": "69a7e71d6f0df0889c598180",
+    "nombre": "Hotel Hospes Puerta de Alcalá",
+    "calificacion": 9.2,
+    "ubicacion": "Plaza de la Independencia 3, Madrid",
+    "precioPorNoche": 310,
+    "estrellas": 5,
+    "latitud": 40.4202,
+    "longitud": -3.6885
+  },
+  {
+    "id": "69a7e71d6f0df0889c598181",
+    "nombre": "Hotel Palacio de Villapanés",
+    "calificacion": 9.4,
+    "ubicacion": "Calle Santiago 31, Sevilla",
+    "precioPorNoche": 290,
+    "estrellas": 5,
+    "latitud": 37.3912,
+    "longitud": -5.9868
+  },
+  {
+    "id": "69a7e71d6f0df0889c598182",
+    "nombre": "Las Casas de la Judería",
+    "calificacion": 8.9,
+    "ubicacion": "Calle Santa María la Blanca 5, Sevilla",
+    "precioPorNoche": 160,
+    "estrellas": 4,
+    "latitud": 37.3872,
+    "longitud": -5.9875
+  },
+  {
+    "id": "69a7e71d6f0df0889c598183",
+    "nombre": "Hotel Colón Gran Meliá",
+    "calificacion": 9.3,
+    "ubicacion": "Calle Canalejas 1, Sevilla",
+    "precioPorNoche": 250,
+    "estrellas": 5,
+    "latitud": 37.3898,
+    "longitud": -5.9985
+  },
+  {
+    "id": "69a7e71d6f0df0889c598184",
+    "nombre": "Hotel Iturregi",
+    "calificacion": 9.7,
+    "ubicacion": "Barrio Azkizu s/n, Getaria",
+    "precioPorNoche": 320,
+    "estrellas": 4,
+    "latitud": 43.2985,
+    "longitud": -2.2115
+  },
+  {
+    "id": "69a7e71d6f0df0889c598185",
+    "nombre": "Hotel Akelarre",
+    "calificacion": 9.6,
+    "ubicacion": "Padre Orkolaga Ibilbidea 56, San Sebastián",
+    "precioPorNoche": 550,
+    "estrellas": 5,
+    "latitud": 43.3112,
+    "longitud": -2.0385
+  },
+  {
+    "id": "69a7e71d6f0df0889c598186",
+    "nombre": "Hotel Londres y de Inglaterra",
+    "calificacion": 9.1,
+    "ubicacion": "Zubieta Kalea 2, San Sebastián",
+    "precioPorNoche": 220,
+    "estrellas": 4,
+    "latitud": 43.3168,
+    "longitud": -1.9862
+  },
+  {
+    "id": "69a7e71d6f0df0889c598187",
+    "nombre": "Hotel Palacio de Úbeda",
+    "calificacion": 9.5,
+    "ubicacion": "Calle Juan Pasquau 4, Úbeda",
+    "precioPorNoche": 180,
+    "estrellas": 5,
+    "latitud": 38.0085,
+    "longitud": -3.3685
+  },
+  {
+    "id": "69a7e71d6f0df0889c598188",
+    "nombre": "Parador de Jaén",
+    "calificacion": 9.3,
+    "ubicacion": "Castillo de Santa Catalina, Jaén",
+    "precioPorNoche": 150,
+    "estrellas": 4,
+    "latitud": 37.7672,
+    "longitud": -3.8055
+  },
+  {
+    "id": "69a7e71d6f0df0889c598189",
+    "nombre": "Hotel Casa 1800 Granada",
+    "calificacion": 9.4,
+    "ubicacion": "Calle Benalúa 11, Granada",
+    "precioPorNoche": 190,
+    "estrellas": 4,
+    "latitud": 37.1775,
+    "longitud": -3.5935
+  },
+  {
+    "id": "69a7e71d6f0df0889c59818a",
+    "nombre": "Hotel Vincci Selección Posada del Patio",
+    "calificacion": 9.1,
+    "ubicacion": "Pasillo de Santa Isabel 7, Málaga",
+    "precioPorNoche": 210,
+    "estrellas": 5,
+    "latitud": 36.7215,
+    "longitud": -4.4265
+  },
+  {
+    "id": "69a7e71d6f0df0889c59818b",
+    "nombre": "Hotel Miramar",
+    "calificacion": 9.5,
+    "ubicacion": "Paseo de Reding 22, Málaga",
+    "precioPorNoche": 350,
+    "estrellas": 5,
+    "latitud": 36.7202,
+    "longitud": -4.4102
+  },
+  {
+    "id": "69a7e71d6f0df0889c59818c",
+    "nombre": "Hotel Hospes Amérigo",
+    "calificacion": 9.2,
+    "ubicacion": "Calle Rafael Altamira 7, Alicante",
+    "precioPorNoche": 185,
+    "estrellas": 5,
+    "latitud": 38.3442,
+    "longitud": -0.4821
+  },
+  {
+    "id": "69a7e71d6f0df0889c59818d",
+    "nombre": "Asia Gardens Hotel & Thai Spa",
+    "calificacion": 9.6,
+    "ubicacion": "Rotonda del Fuego, Finestrat, Alicante",
+    "precioPorNoche": 420,
+    "estrellas": 5,
+    "latitud": 38.5635,
+    "longitud": -0.1785
+  },
+  {
+    "id": "69a7e71d6f0df0889c59818e",
+    "nombre": "Hotel Botánico & The Oriental Spa Garden",
+    "calificacion": 9.4,
+    "ubicacion": "Richard J. Yeoward 1, Puerto de la Cruz",
+    "precioPorNoche": 240,
+    "estrellas": 5,
+    "latitud": 28.4125,
+    "longitud": -16.5365
+  },
+  {
+    "id": "69a7e71d6f0df0889c59818f",
+    "nombre": "Royal Hideaway Corales Resort",
+    "calificacion": 9.7,
+    "ubicacion": "Avenida Virgen de Guadalupe 21, Adeje",
+    "precioPorNoche": 480,
+    "estrellas": 5,
+    "latitud": 28.1025,
+    "longitud": -16.7535
+  },
+  {
+    "id": "69a7e71d6f0df0889c598190",
+    "nombre": "Hotel Bohemia Suites & Spa",
+    "calificacion": 9.3,
+    "ubicacion": "Avenida Estados Unidos 28, Playa del Inglés",
+    "precioPorNoche": 290,
+    "estrellas": 5,
+    "latitud": 27.7585,
+    "longitud": -15.5685
+  },
+  {
+    "id": "69a7e71d6f0df0889c598191",
+    "nombre": "Hotel Seaside Grand Hotel Residencia",
+    "calificacion": 9.9,
+    "ubicacion": "Avenida del Oasis 32, Maspalomas",
+    "precioPorNoche": 580,
+    "estrellas": 5,
+    "latitud": 27.7365,
+    "longitud": -15.5972
+  },
+  {
+    "id": "69a7e71d6f0df0889c598192",
+    "nombre": "Anantara Villa Padierna Palace",
+    "calificacion": 9.7,
+    "ubicacion": "Urbanización Los Flamingos 155, Benahavís",
+    "precioPorNoche": 490,
+    "estrellas": 5,
+    "latitud": 36.4745,
+    "longitud": -5.0442
+  },
+  {
+    "id": "69a7e71d6f0df0889c598193",
+    "nombre": "Hotel Finca Cortesín",
+    "calificacion": 9.9,
+    "ubicacion": "Ctra. de Casares km 2, Casares, Málaga",
+    "precioPorNoche": 950,
+    "estrellas": 5,
+    "latitud": 36.3785,
+    "longitud": -5.2285
+  },
+  {
+    "id": "69a7e7526f0df0889c598195",
+    "nombre": "Parador de Cáceres",
+    "calificacion": 9.4,
+    "ubicacion": "Ancha 6, Cáceres",
+    "precioPorNoche": 145,
+    "estrellas": 4,
+    "latitud": 39.4745,
+    "longitud": -6.3708
+  },
+  {
+    "id": "69a7e7526f0df0889c598196",
+    "nombre": "Hotel Palacio Carvajal Girón",
+    "calificacion": 9.2,
+    "ubicacion": "Plaza Ansano 1, Plasencia",
+    "precioPorNoche": 120,
+    "estrellas": 4,
+    "latitud": 40.0295,
+    "longitud": -6.0912
+  },
+  {
+    "id": "69a7e7526f0df0889c598197",
+    "nombre": "Hospes Palacio de Arenales & Spa",
+    "calificacion": 8.9,
+    "ubicacion": "Ctra. N-521 km 52, Cáceres",
+    "precioPorNoche": 135,
+    "estrellas": 5,
+    "latitud": 39.4812,
+    "longitud": -6.4255
+  },
+  {
+    "id": "69a7e7526f0df0889c598198",
+    "nombre": "Parador de Mérida",
+    "calificacion": 9.1,
+    "ubicacion": "Plaza de la Constitución 3, Mérida",
+    "precioPorNoche": 110,
+    "estrellas": 4,
+    "latitud": 38.9185,
+    "longitud": -6.3458
+  },
+  {
+    "id": "69a7e7526f0df0889c598199",
+    "nombre": "Hotel Nelva",
+    "calificacion": 8.8,
+    "ubicacion": "Avenida Primero de Mayo 5, Murcia",
+    "precioPorNoche": 95,
+    "estrellas": 4,
+    "latitud": 37.9912,
+    "longitud": -1.1185
+  },
+  {
+    "id": "69a7e7526f0df0889c59819a",
+    "nombre": "Hotel 7 Coronas",
+    "calificacion": 8.7,
+    "ubicacion": "Paseo de Garay 5, Murcia",
+    "precioPorNoche": 105,
+    "estrellas": 4,
+    "latitud": 37.9825,
+    "longitud": -1.1255
+  },
+  {
+    "id": "69a7e7526f0df0889c59819b",
+    "nombre": "DoubleTree by Hilton La Torre Golf",
+    "calificacion": 9,
+    "ubicacion": "Anchoa 6, Roldán, Murcia",
+    "precioPorNoche": 140,
+    "estrellas": 5,
+    "latitud": 37.8215,
+    "longitud": -0.9855
+  },
+  {
+    "id": "69a7e7526f0df0889c59819c",
+    "nombre": "Hotel La Casa del Rector",
+    "calificacion": 9.3,
+    "ubicacion": "Pedro de Lorenzo 2, Almagro",
+    "precioPorNoche": 130,
+    "estrellas": 4,
+    "latitud": 38.8895,
+    "longitud": -3.7112
+  },
+  {
+    "id": "69a7e7526f0df0889c59819d",
+    "nombre": "Parador de Almagro",
+    "calificacion": 9.2,
+    "ubicacion": "Ronda de San Francisco 31, Almagro",
+    "precioPorNoche": 125,
+    "estrellas": 4,
+    "latitud": 38.8872,
+    "longitud": -3.7085
+  },
+  {
+    "id": "69a7e7526f0df0889c59819e",
+    "nombre": "Hotel Cigarral el Bosque",
+    "calificacion": 8.9,
+    "ubicacion": "Ctra. de Cuerva 11, Toledo",
+    "precioPorNoche": 155,
+    "estrellas": 5,
+    "latitud": 39.8495,
+    "longitud": -4.0385
+  },
+  {
+    "id": "69a7e7526f0df0889c59819f",
+    "nombre": "Fontecruz Toledo",
+    "calificacion": 9,
+    "ubicacion": "Calle de las Bulas 11, Toledo",
+    "precioPorNoche": 145,
+    "estrellas": 5,
+    "latitud": 39.8582,
+    "longitud": -4.0275
+  },
+  {
+    "id": "69a7e7526f0df0889c5981a0",
+    "nombre": "Abba Huesca Hotel",
+    "calificacion": 8.6,
+    "ubicacion": "Calle Tarbes 14, Huesca",
+    "precioPorNoche": 90,
+    "estrellas": 4,
+    "latitud": 42.1345,
+    "longitud": -0.4132
+  },
+  {
+    "id": "69a7e7526f0df0889c5981a1",
+    "nombre": "Barceló Monasterio de Boltaña",
+    "calificacion": 9.1,
+    "ubicacion": "Afueras s/n, Boltaña, Huesca",
+    "precioPorNoche": 160,
+    "estrellas": 5,
+    "latitud": 42.4435,
+    "longitud": 0.0685
+  },
+  {
+    "id": "69a7e7526f0df0889c5981a2",
+    "nombre": "Hotel Santa María de Alquézar",
+    "calificacion": 9.4,
+    "ubicacion": "Calle Nueva 5, Alquézar",
+    "precioPorNoche": 115,
+    "estrellas": 3,
+    "latitud": 42.1725,
+    "longitud": 0.0245
+  },
+  {
+    "id": "69a7e7526f0df0889c5981a3",
+    "nombre": "Hotel Palafox",
+    "calificacion": 9.1,
+    "ubicacion": "Calle de la Marquesa de Casa Jiménez s/n, Zaragoza",
+    "precioPorNoche": 130,
+    "estrellas": 5,
+    "latitud": 41.6502,
+    "longitud": -0.8875
+  },
+  {
+    "id": "69a7e7526f0df0889c5981a4",
+    "nombre": "Hotel Reina Felicia",
+    "calificacion": 8.5,
+    "ubicacion": "Calle de los Jaca s/n, Jaca",
+    "precioPorNoche": 100,
+    "estrellas": 4,
+    "latitud": 42.5645,
+    "longitud": -0.5485
+  },
+  {
+    "id": "69a7e7526f0df0889c5981a5",
+    "nombre": "Hotel Candanchú",
+    "calificacion": 8.3,
+    "ubicacion": "Ctra. de Francia s/n, Candanchú",
+    "precioPorNoche": 95,
+    "estrellas": 3,
+    "latitud": 42.7885,
+    "longitud": -0.5255
+  },
+  {
+    "id": "69a7e7526f0df0889c5981a6",
+    "nombre": "Gran Hotel Panticosa",
+    "calificacion": 9,
+    "ubicacion": "Ctra. del Balneario, Panticosa",
+    "precioPorNoche": 180,
+    "estrellas": 4,
+    "latitud": 42.7565,
+    "longitud": -0.2612
+  },
+  {
+    "id": "69a7e7526f0df0889c5981a7",
+    "nombre": "Parador de Bielsa",
+    "calificacion": 9.3,
+    "ubicacion": "Valle de Pineta, Bielsa",
+    "precioPorNoche": 140,
+    "estrellas": 3,
+    "latitud": 42.6785,
+    "longitud": 0.1255
+  },
+  {
+    "id": "69a7e7526f0df0889c5981a8",
+    "nombre": "Hotel Val de Neu G.L.",
+    "calificacion": 9.6,
+    "ubicacion": "Perimetrau s/n, Baqueira Beret",
+    "precioPorNoche": 450,
+    "estrellas": 5,
+    "latitud": 42.6995,
+    "longitud": 0.9345
+  },
+  {
+    "id": "69a7e7526f0df0889c5981a9",
+    "nombre": "Hotel Montarto",
+    "calificacion": 8.8,
+    "ubicacion": "Núcleo 1500, Baqueira Beret",
+    "precioPorNoche": 190,
+    "estrellas": 4,
+    "latitud": 42.6982,
+    "longitud": 0.9325
+  },
+  {
+    "id": "69a7e7526f0df0889c5981aa",
+    "nombre": "Parador de Artíes",
+    "calificacion": 9.2,
+    "ubicacion": "Ctra. de Baqueira s/n, Artíes",
+    "precioPorNoche": 170,
+    "estrellas": 4,
+    "latitud": 42.6998,
+    "longitud": 0.8712
+  },
+  {
+    "id": "69a7e7526f0df0889c5981ab",
+    "nombre": "Hotel AC Baqueira Ski Resort",
+    "calificacion": 9.1,
+    "ubicacion": "Avinguda de Perimetrau s/n, Baqueira",
+    "precioPorNoche": 280,
+    "estrellas": 5,
+    "latitud": 42.7012,
+    "longitud": 0.9365
+  },
+  {
+    "id": "69a7e7526f0df0889c5981ac",
+    "nombre": "W Ibiza",
+    "calificacion": 9.3,
+    "ubicacion": "Calle Ricardo Curtoys Gotarredona 37, Santa Eulalia",
+    "precioPorNoche": 350,
+    "estrellas": 5,
+    "latitud": 38.9835,
+    "longitud": 1.5325
+  },
+  {
+    "id": "69a7e7526f0df0889c5981ad",
+    "nombre": "Ushuaïa Ibiza Beach Hotel",
+    "calificacion": 8.7,
+    "ubicacion": "Ctra. de Platja d'en Bossa 10, Ibiza",
+    "precioPorNoche": 480,
+    "estrellas": 5,
+    "latitud": 38.8855,
+    "longitud": 1.4055
+  },
+  {
+    "id": "69a7e7526f0df0889c5981ae",
+    "nombre": "Hard Rock Hotel Ibiza",
+    "calificacion": 8.9,
+    "ubicacion": "Ctra. de Platja d'en Bossa s/n, Ibiza",
+    "precioPorNoche": 420,
+    "estrellas": 5,
+    "latitud": 38.8832,
+    "longitud": 1.4032
+  },
+  {
+    "id": "69a7e7526f0df0889c5981af",
+    "nombre": "Six Senses Ibiza",
+    "calificacion": 9.8,
+    "ubicacion": "Cami de sa Torre s/n, Portinatx",
+    "precioPorNoche": 950,
+    "estrellas": 5,
+    "latitud": 39.1085,
+    "longitud": 1.4485
+  },
+  {
+    "id": "69a7e7526f0df0889c5981b0",
+    "nombre": "Hotel Altis Avenida",
+    "calificacion": 9.2,
+    "ubicacion": "Rua 1º Dezembro 120, Lisboa",
+    "precioPorNoche": 210,
+    "estrellas": 5,
+    "latitud": 38.7152,
+    "longitud": -9.1402
+  },
+  {
+    "id": "69a7e7526f0df0889c5981b1",
+    "nombre": "The Yeatman",
+    "calificacion": 9.7,
+    "ubicacion": "Rua do Choupelo s/n, Oporto",
+    "precioPorNoche": 380,
+    "estrellas": 5,
+    "latitud": 41.1332,
+    "longitud": -8.6132
+  },
+  {
+    "id": "69a7e7526f0df0889c5981b2",
+    "nombre": "Hotel Alfonso IX",
+    "calificacion": 8.4,
+    "ubicacion": "Rua Peregrinos 29, Sarria",
+    "precioPorNoche": 85,
+    "estrellas": 4,
+    "latitud": 42.7785,
+    "longitud": -7.4125
+  },
+  {
+    "id": "69a7e7526f0df0889c5981b3",
+    "nombre": "Parador de Baiona",
+    "calificacion": 9.5,
+    "ubicacion": "Avenida Arquitecto Palacios s/n, Baiona",
+    "precioPorNoche": 185,
+    "estrellas": 4,
+    "latitud": 42.1245,
+    "longitud": -8.8485
+  },
+  {
+    "id": "69a7e7526f0df0889c5981b4",
+    "nombre": "Hotel NH Collection Vigo",
+    "calificacion": 9,
+    "ubicacion": "Avenida García Barbón 17, Vigo",
+    "precioPorNoche": 130,
+    "estrellas": 4,
+    "latitud": 42.2385,
+    "longitud": -8.7155
+  },
+  {
+    "id": "69a7e7526f0df0889c5981b5",
+    "nombre": "Hotel Quinta de la Quietiude",
+    "calificacion": 9.1,
+    "ubicacion": "Aldea de Arriba s/n, Sanxenxo",
+    "precioPorNoche": 150,
+    "estrellas": 4,
+    "latitud": 42.4125,
+    "longitud": -8.8115
+  },
+  {
+    "id": "69a7e7526f0df0889c5981b6",
+    "nombre": "Hotel de la Reconquista",
+    "calificacion": 9.2,
+    "ubicacion": "Gil de Jaz 16, Oviedo",
+    "precioPorNoche": 175,
+    "estrellas": 5,
+    "latitud": 43.3645,
+    "longitud": -5.8512
+  },
+  {
+    "id": "69a7e7526f0df0889c5981b7",
+    "nombre": "Palacio de Tepa",
+    "calificacion": 9.3,
+    "ubicacion": "Calle de San Sebastián 2, Madrid",
+    "precioPorNoche": 280,
+    "estrellas": 5,
+    "latitud": 40.4145,
+    "longitud": -3.7025
+  },
+  {
+    "id": "69a7e7526f0df0889c5981b8",
+    "nombre": "Relais & Châteaux Heritage Madrid",
+    "calificacion": 9.6,
+    "ubicacion": "Calle de Diego de León 2, Madrid",
+    "precioPorNoche": 390,
+    "estrellas": 5,
+    "latitud": 40.4352,
+    "longitud": -3.6845
+  },
+  {
+    "id": "69a7e7526f0df0889c5981b9",
+    "nombre": "The Edition Madrid",
+    "calificacion": 9.5,
+    "ubicacion": "Plaza de Celenque 2, Madrid",
+    "precioPorNoche": 550,
+    "estrellas": 5,
+    "latitud": 40.4182,
+    "longitud": -3.7058
+  },
+  {
+    "id": "69a7e7526f0df0889c5981ba",
+    "nombre": "Kimpton Vividora Barcelona",
+    "calificacion": 9.4,
+    "ubicacion": "Carrer del Duc 1, Barcelona",
+    "precioPorNoche": 320,
+    "estrellas": 5,
+    "latitud": 41.3845,
+    "longitud": 2.1732
+  },
+  {
+    "id": "69a7e7526f0df0889c5981bb",
+    "nombre": "Hotel Bagués",
+    "calificacion": 9.2,
+    "ubicacion": "La Rambla 105, Barcelona",
+    "precioPorNoche": 290,
+    "estrellas": 5,
+    "latitud": 41.3835,
+    "longitud": 2.1715
+  },
+  {
+    "id": "69a7e7526f0df0889c5981bc",
+    "nombre": "Hotel Neri Relais & Châteaux",
+    "calificacion": 9.7,
+    "ubicacion": "Sant Sever 5, Barcelona",
+    "precioPorNoche": 410,
+    "estrellas": 5,
+    "latitud": 41.3832,
+    "longitud": 2.1758
+  },
+  {
+    "id": "69a7e7526f0df0889c5981bd",
+    "nombre": "Hotel Mercer Sevilla",
+    "calificacion": 9.8,
+    "ubicacion": "Calle Castelar 26, Sevilla",
+    "precioPorNoche": 440,
+    "estrellas": 5,
+    "latitud": 37.3855,
+    "longitud": -5.9962
+  },
+  {
+    "id": "69a7e7526f0df0889c5981be",
+    "nombre": "Palacio de los Patos",
+    "calificacion": 9.2,
+    "ubicacion": "Calle Solarillo de Gracia 1, Granada",
+    "precioPorNoche": 230,
+    "estrellas": 5,
+    "latitud": 37.1725,
+    "longitud": -3.6015
+  },
+  {
+    "id": "69a7e7526f0df0889c5981bf",
+    "nombre": "Hotel Palacio de Santa Paula",
+    "calificacion": 9,
+    "ubicacion": "Gran Via de Colon 31, Granada",
+    "precioPorNoche": 195,
+    "estrellas": 5,
+    "latitud": 37.1785,
+    "longitud": -3.5992
+  },
+  {
+    "id": "69a7e7526f0df0889c5981c0",
+    "nombre": "Hotel Iturregi",
+    "calificacion": 9.8,
+    "ubicacion": "Barrio Azkizu s/n, Getaria",
+    "precioPorNoche": 310,
+    "estrellas": 4,
+    "latitud": 43.2982,
+    "longitud": -2.2118
+  },
+  {
+    "id": "69a7e7526f0df0889c5981c1",
+    "nombre": "Hotel Viura",
+    "calificacion": 9.1,
     "ubicacion": "Calle Mayor s/n, Villabuena de Álava",
     "precioPorNoche": 180,
-    "estrellas": 4
+    "estrellas": 4,
+    "latitud": 42.5485,
+    "longitud": -2.6655
   },
   {
-    "nombre": "Hotel Monasterio de Valbuena",
+    "id": "69a7e7526f0df0889c5981c2",
+    "nombre": "Hotel Consolación",
     "calificacion": 9.5,
-    "ubicacion": "Calle de las Murallas s/n, San Bernardo",
-    "precioPorNoche": 280,
-    "estrellas": 5
+    "ubicacion": "Ctra. Valderrobres s/n, Monroyo",
+    "precioPorNoche": 220,
+    "estrellas": 4,
+    "latitud": 40.8385,
+    "longitud": 0.0345
   },
   {
-    "nombre": "Royal Hideaway Sancti Petri",
+    "id": "69a7e7526f0df0889c5981c3",
+    "nombre": "Torre del Visco",
+    "calificacion": 9.7,
+    "ubicacion": "Partida Torre del Visco s/n, Fuentespalda",
+    "precioPorNoche": 295,
+    "estrellas": 4,
+    "latitud": 40.8012,
+    "longitud": 0.0585
+  },
+  {
+    "id": "69a7e7526f0df0889c5981c4",
+    "nombre": "Hotel Aire de Bardenas",
+    "calificacion": 9,
+    "ubicacion": "Ctra. de Ejea km 1.5, Tudela",
+    "precioPorNoche": 250,
+    "estrellas": 4,
+    "latitud": 42.0645,
+    "longitud": -1.5835
+  },
+  {
+    "id": "69a7e7526f0df0889c5981c5",
+    "nombre": "Parador de Sos del Rey Católico",
     "calificacion": 9.2,
-    "ubicacion": "Urbanización Sancti Petri s/n, Chiclana de la Frontera",
-    "precioPorNoche": 320,
-    "estrellas": 5
+    "ubicacion": "Arquitecto Sainz de Vicuña 1, Sos del Rey Católico",
+    "precioPorNoche": 135,
+    "estrellas": 4,
+    "latitud": 42.4975,
+    "longitud": -1.2155
   },
   {
-    "nombre": "Hotel Boutique Villa Venecia",
-    "calificacion": 9.4,
-    "ubicacion": "Plaza de San Jaime 1, Benidorm",
+    "id": "69a7e7526f0df0889c5981c6",
+    "nombre": "Hotel Atrio",
+    "calificacion": 9.9,
+    "ubicacion": "Plaza de San Mateo 1, Cáceres",
+    "precioPorNoche": 650,
+    "estrellas": 5,
+    "latitud": 39.4735,
+    "longitud": -6.3702
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981c8",
+    "nombre": "Hotel Alfonso XIII, a Luxury Collection Hotel",
+    "calificacion": 9.8,
+    "ubicacion": "Calle San Fernando 2, Sevilla",
+    "precioPorNoche": 520,
+    "estrellas": 5,
+    "latitud": 37.3832,
+    "longitud": -5.9925
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981c9",
+    "nombre": "Parador de Carmona",
+    "calificacion": 9.1,
+    "ubicacion": "Alcázar s/n, Carmona",
+    "precioPorNoche": 150,
+    "estrellas": 4,
+    "latitud": 37.4725,
+    "longitud": -5.6315
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981ca",
+    "nombre": "Hotel Casa Palacio María Luisa",
+    "calificacion": 9.9,
+    "ubicacion": "Calle Tornería 22, Jerez de la Frontera",
     "precioPorNoche": 290,
-    "estrellas": 5
+    "estrellas": 5,
+    "latitud": 36.6855,
+    "longitud": -6.1385
   },
   {
-    "nombre": "Asia Gardens Hotel & Thai Spa",
+    "id": "69a7e7a66f0df0889c5981cb",
+    "nombre": "Barceló Montecastillo Golf",
+    "calificacion": 8.8,
+    "ubicacion": "Ctra. de Arcos km 6, Jerez",
+    "precioPorNoche": 145,
+    "estrellas": 5,
+    "latitud": 36.7032,
+    "longitud": -6.0355
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981cc",
+    "nombre": "Hotel Duque de Najera",
+    "calificacion": 8.9,
+    "ubicacion": "Calle Gravina 2, Rota",
+    "precioPorNoche": 130,
+    "estrellas": 4,
+    "latitud": 36.6185,
+    "longitud": -6.3585
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981cd",
+    "nombre": "Parador de Arcos de la Frontera",
+    "calificacion": 9,
+    "ubicacion": "Plaza del Cabildo s/n, Arcos de la Frontera",
+    "precioPorNoche": 125,
+    "estrellas": 4,
+    "latitud": 36.7485,
+    "longitud": -5.8055
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981ce",
+    "nombre": "Hotel Zahara Beach & Spa",
     "calificacion": 9.3,
-    "ubicacion": "Rotonda del Fuego s/n, Finestrat",
-    "precioPorNoche": 450,
-    "estrellas": 5
+    "ubicacion": "Avenida de Atlanterra s/n, Zahara de los Atunes",
+    "precioPorNoche": 240,
+    "estrellas": 5,
+    "latitud": 36.1312,
+    "longitud": -5.8345
   },
   {
-    "nombre": "Cesur Hotel",
-    "calificacion": 8,
-    "ubicacion": "El palo",
-    "precioPorNoche": 500,
-    "estrellas": 5
+    "id": "69a7e7a66f0df0889c5981cf",
+    "nombre": "Royal Hideaway Sancti Petri",
+    "calificacion": 9.5,
+    "ubicacion": "Urbanización Loma de Sancti Petri, Chiclana",
+    "precioPorNoche": 310,
+    "estrellas": 5,
+    "latitud": 36.3455,
+    "longitud": -6.1685
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981d0",
+    "nombre": "Hotel Gran Claustre",
+    "calificacion": 9.2,
+    "ubicacion": "Carrer del Cup 2, Altafulla",
+    "precioPorNoche": 165,
+    "estrellas": 4,
+    "latitud": 41.1425,
+    "longitud": 1.3745
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981d1",
+    "nombre": "Hotel Terra Dominicata",
+    "calificacion": 9.7,
+    "ubicacion": "Ctra. T-702 km 13, Escaladei",
+    "precioPorNoche": 350,
+    "estrellas": 5,
+    "latitud": 41.2855,
+    "longitud": 0.8112
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981d2",
+    "nombre": "Parador de Tortosa",
+    "calificacion": 9.1,
+    "ubicacion": "Castillo de la Zuda s/n, Tortosa",
+    "precioPorNoche": 115,
+    "estrellas": 4,
+    "latitud": 40.8145,
+    "longitud": 0.5245
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981d3",
+    "nombre": "Hotel Mastinell",
+    "calificacion": 9.4,
+    "ubicacion": "Ctra. de Vilafranca a Sant Martí km 0.5, Vilafranca del Penedès",
+    "precioPorNoche": 260,
+    "estrellas": 5,
+    "latitud": 41.3485,
+    "longitud": 1.6912
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981d4",
+    "nombre": "Le Méridien Ra Beach Hotel",
+    "calificacion": 9,
+    "ubicacion": "Av. Sanatori 1, El Vendrell",
+    "precioPorNoche": 285,
+    "estrellas": 5,
+    "latitud": 41.1855,
+    "longitud": 1.5432
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981d5",
+    "nombre": "Hotel Monument",
+    "calificacion": 9.8,
+    "ubicacion": "Passeig de Gràcia 75, Barcelona",
+    "precioPorNoche": 480,
+    "estrellas": 5,
+    "latitud": 41.3925,
+    "longitud": 2.1632
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981d6",
+    "nombre": "The Barcelona Edition",
+    "calificacion": 9.4,
+    "ubicacion": "Av. de Francesc Cambó 14, Barcelona",
+    "precioPorNoche": 450,
+    "estrellas": 5,
+    "latitud": 41.3862,
+    "longitud": 2.1775
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981d7",
+    "nombre": "Hotel Mandarin Oriental Barcelona",
+    "calificacion": 9.7,
+    "ubicacion": "Passeig de Gràcia 38, Barcelona",
+    "precioPorNoche": 780,
+    "estrellas": 5,
+    "latitud": 41.3912,
+    "longitud": 2.1652
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981d8",
+    "nombre": "Parador de Cardona",
+    "calificacion": 9.5,
+    "ubicacion": "Castillo de Cardona s/n, Barcelona",
+    "precioPorNoche": 160,
+    "estrellas": 4,
+    "latitud": 41.9145,
+    "longitud": 1.6855
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981d9",
+    "nombre": "Hotel Sant Roc",
+    "calificacion": 8.9,
+    "ubicacion": "Plaça de Sant Roc 1, Solsona",
+    "precioPorNoche": 140,
+    "estrellas": 4,
+    "latitud": 41.9945,
+    "longitud": 1.5175
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981da",
+    "nombre": "Hotel Can Alomar",
+    "calificacion": 9.6,
+    "ubicacion": "Carrer de Sant Feliu 1, Palma",
+    "precioPorNoche": 420,
+    "estrellas": 5,
+    "latitud": 39.5702,
+    "longitud": 2.6475
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981db",
+    "nombre": "Hotel Sant Francesc",
+    "calificacion": 9.8,
+    "ubicacion": "Plaça de Sant Francesc 5, Palma",
+    "precioPorNoche": 460,
+    "estrellas": 5,
+    "latitud": 39.5695,
+    "longitud": 2.6515
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981dc",
+    "nombre": "Castell Son Claret",
+    "calificacion": 9.9,
+    "ubicacion": "Ctra. Es Capdellà km 1.7, Calvià",
+    "precioPorNoche": 720,
+    "estrellas": 5,
+    "latitud": 39.5812,
+    "longitud": 2.4632
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981dd",
+    "nombre": "Cap Rocat",
+    "calificacion": 9.9,
+    "ubicacion": "Ctra. d'Enderrocat s/n, Cala Blava",
+    "precioPorNoche": 1200,
+    "estrellas": 5,
+    "latitud": 39.4875,
+    "longitud": 2.7132
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981de",
+    "nombre": "Hotel Rural El Añadío",
+    "calificacion": 9.4,
+    "ubicacion": "Ctra. de Vilches km 6, Jaén",
+    "precioPorNoche": 180,
+    "estrellas": 4,
+    "latitud": 38.2112,
+    "longitud": -3.5115
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981df",
+    "nombre": "Parador de Gredos",
+    "calificacion": 9,
+    "ubicacion": "Ctra. AV-941, Navarredonda de Gredos",
+    "precioPorNoche": 115,
+    "estrellas": 3,
+    "latitud": 40.3545,
+    "longitud": -5.1315
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981e0",
+    "nombre": "Hotel Nabia",
+    "calificacion": 9.7,
+    "ubicacion": "Cuesta de la Colorada s/n, Candeleda",
+    "precioPorNoche": 210,
+    "estrellas": 4,
+    "latitud": 40.1585,
+    "longitud": -5.2385
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981e1",
+    "nombre": "Parador de Jarandilla de la Vera",
+    "calificacion": 9.2,
+    "ubicacion": "Plaza de la Constitución 1, Jarandilla",
+    "precioPorNoche": 130,
+    "estrellas": 4,
+    "latitud": 40.1265,
+    "longitud": -5.6585
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981e2",
+    "nombre": "Hotel Palacio de Oquendo",
+    "calificacion": 8.7,
+    "ubicacion": "Plaza San Juan 1, Cáceres",
+    "precioPorNoche": 105,
+    "estrellas": 4,
+    "latitud": 39.4755,
+    "longitud": -6.3725
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981e3",
+    "nombre": "Hotel Monasterio de Rocamador",
+    "calificacion": 9.1,
+    "ubicacion": "Ctra. Badajoz-Huelva km 41, Almendral",
+    "precioPorNoche": 155,
+    "estrellas": 4,
+    "latitud": 38.6115,
+    "longitud": -6.8215
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981e4",
+    "nombre": "Hotel Eurostars Gran Vía",
+    "calificacion": 8.8,
+    "ubicacion": "Gran Vía de Colón 20, Granada",
+    "precioPorNoche": 125,
+    "estrellas": 5,
+    "latitud": 37.1775,
+    "longitud": -3.5985
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981e5",
+    "nombre": "Hotel Hospes Las Casas del Rey de Baeza",
+    "calificacion": 9.3,
+    "ubicacion": "Plaza Jesús de la Redención 2, Sevilla",
+    "precioPorNoche": 220,
+    "estrellas": 4,
+    "latitud": 37.3915,
+    "longitud": -5.9865
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981e6",
+    "nombre": "Gran Hotel Miramar Resort & Spa",
+    "calificacion": 9.6,
+    "ubicacion": "Paseo de Reding 22, Málaga",
+    "precioPorNoche": 360,
+    "estrellas": 5,
+    "latitud": 36.7205,
+    "longitud": -4.4105
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981e7",
+    "nombre": "Hotel Fuerte Marbella",
+    "calificacion": 8.9,
+    "ubicacion": "Calle El Fuerte s/n, Marbella",
+    "precioPorNoche": 205,
+    "estrellas": 4,
+    "latitud": 36.5075,
+    "longitud": -4.8835
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981e8",
+    "nombre": "Hotel Don Carlos Resort",
+    "calificacion": 9,
+    "ubicacion": "Ctra. de Cádiz km 192, Marbella",
+    "precioPorNoche": 275,
+    "estrellas": 5,
+    "latitud": 36.4955,
+    "longitud": -4.7735
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981e9",
+    "nombre": "Parador de Nerja",
+    "calificacion": 9.1,
+    "ubicacion": "Calle Almuñécar 8, Nerja",
+    "precioPorNoche": 170,
+    "estrellas": 4,
+    "latitud": 36.7485,
+    "longitud": -3.8715
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981ea",
+    "nombre": "Hotel Balcón de Europa",
+    "calificacion": 9.2,
+    "ubicacion": "Paseo Balcón de Europa 1, Nerja",
+    "precioPorNoche": 155,
+    "estrellas": 4,
+    "latitud": 36.7445,
+    "longitud": -3.8765
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981eb",
+    "nombre": "Hotel Palacio de los Velada",
+    "calificacion": 8.6,
+    "ubicacion": "Plaza de la Catedral 10, Ávila",
+    "precioPorNoche": 95,
+    "estrellas": 4,
+    "latitud": 40.6565,
+    "longitud": -4.6975
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981ec",
+    "nombre": "Hotel Valdepalacios Relais & Châteaux",
+    "calificacion": 9.8,
+    "ubicacion": "Ctra. de Oropesa km 9, Torrico",
+    "precioPorNoche": 410,
+    "estrellas": 5,
+    "latitud": 39.8512,
+    "longitud": -5.2132
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981ed",
+    "nombre": "Parador de Sigüenza",
+    "calificacion": 9.3,
+    "ubicacion": "Plaza del Castillo s/n, Sigüenza",
+    "precioPorNoche": 140,
+    "estrellas": 4,
+    "latitud": 41.0645,
+    "longitud": -2.6415
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981ee",
+    "nombre": "Hotel Salinas de Imón",
+    "calificacion": 8.5,
+    "ubicacion": "Calle Real 1, Imón",
+    "precioPorNoche": 85,
+    "estrellas": 3,
+    "latitud": 41.1345,
+    "longitud": -2.7115
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981ef",
+    "nombre": "Hotel Convento San Roque",
+    "calificacion": 8.8,
+    "ubicacion": "Calle San Roque 1, Balmaseda",
+    "precioPorNoche": 110,
+    "estrellas": 3,
+    "latitud": 43.1945,
+    "longitud": -3.1935
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981f0",
+    "nombre": "Hotel Marqués de Riscal, Luxury Collection",
+    "calificacion": 9.6,
+    "ubicacion": "Calle Torrea 1, Elciego",
+    "precioPorNoche": 620,
+    "estrellas": 5,
+    "latitud": 42.5118,
+    "longitud": -2.6185
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981f1",
+    "nombre": "Hotel Castillo de Arteaga",
+    "calificacion": 9.4,
+    "ubicacion": "Gaztelubide s/n, Gautegiz Arteaga",
+    "precioPorNoche": 195,
+    "estrellas": 4,
+    "latitud": 43.3485,
+    "longitud": -2.6515
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981f2",
+    "nombre": "Hotel Arantza Hotela",
+    "calificacion": 9.7,
+    "ubicacion": "Barrio Aientsa s/n, Arantza",
+    "precioPorNoche": 330,
+    "estrellas": 5,
+    "latitud": 43.1955,
+    "longitud": -1.7255
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981f3",
+    "nombre": "Hotel Gastronómico El Lagar de Isilla",
+    "calificacion": 9.2,
+    "ubicacion": "Calle Real 1, La Vid",
+    "precioPorNoche": 160,
+    "estrellas": 4,
+    "latitud": 41.6312,
+    "longitud": -3.4835
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981f4",
+    "nombre": "Parador de Lerma",
+    "calificacion": 9.4,
+    "ubicacion": "Plaza Mayor 1, Lerma",
+    "precioPorNoche": 145,
+    "estrellas": 4,
+    "latitud": 42.0265,
+    "longitud": -3.7555
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981f5",
+    "nombre": "Abadía Retuerta LeDomaine",
+    "calificacion": 9.9,
+    "ubicacion": "Sardon de Duero, Valladolid",
+    "precioPorNoche": 680,
+    "estrellas": 5,
+    "latitud": 41.6115,
+    "longitud": -4.4085
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981f6",
+    "nombre": "Hotel Palacio de Samaniego",
+    "calificacion": 9.5,
+    "ubicacion": "Constitución 12, Samaniego",
+    "precioPorNoche": 280,
+    "estrellas": 4,
+    "latitud": 42.5685,
+    "longitud": -2.6785
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981f7",
+    "nombre": "Hotel Relais & Châteaux A Quinta da Auga",
+    "calificacion": 9.6,
+    "ubicacion": "Paseo da Amaia 23, Santiago",
+    "precioPorNoche": 240,
+    "estrellas": 5,
+    "latitud": 42.8685,
+    "longitud": -8.5712
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981f8",
+    "nombre": "Parador de Santo Estevo",
+    "calificacion": 9.7,
+    "ubicacion": "Monasterio de Santo Estevo, Ourense",
+    "precioPorNoche": 175,
+    "estrellas": 4,
+    "latitud": 42.4165,
+    "longitud": -7.6855
+  },
+  {
+    "id": "69a7e7a66f0df0889c5981f9",
+    "nombre": "Hotel Pazo Los Escudos",
+    "calificacion": 9.3,
+    "ubicacion": "Avenida Atlántida 106, Vigo",
+    "precioPorNoche": 210,
+    "estrellas": 5,
+    "latitud": 42.2265,
+    "longitud": -8.7615
   }
 ]
